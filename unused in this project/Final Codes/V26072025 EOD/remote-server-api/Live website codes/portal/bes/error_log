@@ -1,0 +1,6 @@
+[03-Jul-2024 14:04:21 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[03-Jul-2024 14:34:03 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[15-Jul-2024 10:58:26 Asia/Calcutta] PHP Warning:  Undefined array key "callback_datentime" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/bes/update_call_log.php on line 17
+[15-Jul-2024 11:29:19 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[15-Jul-2024 12:55:29 Asia/Calcutta] PHP Warning:  Undefined array key "callback_datentime" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/bes/update_call_log.php on line 17
+[15-Jul-2024 16:06:34 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3

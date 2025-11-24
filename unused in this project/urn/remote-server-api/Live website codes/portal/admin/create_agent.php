@@ -1,0 +1,73 @@
+<?php
+include_once("common_include.php");
+
+if($_REQUEST['type'] == 1)
+{
+	$where_con = [
+				'mobile' => $_REQUEST['mobile'],
+				'whatsapp' => $_REQUEST['whatsapp'],
+				'email' => $_REQUEST['email'],
+				'company_website' => $_REQUEST['company_website'],
+			];
+}
+else
+{
+	$where_con = [
+				'mobile' => $_REQUEST['mobile'],
+				'whatsapp' => $_REQUEST['whatsapp'],
+				'email' => $_REQUEST['email'],
+			];
+}	
+
+//check agent data already exist or not
+if(getRowCountMultiCol(setWhereClauseOR($where_con),'agent_list',$con) == 0)
+{
+	$agent_data = [
+					'type' => $_REQUEST['type'],
+					'name' => $_REQUEST['name'],
+					'mobile' => $_REQUEST['mobile'],
+					'whatsapp' => $_REQUEST['whatsapp'],
+					'email' => $_REQUEST['email'],
+					'company_name' => $_REQUEST['company_name'],
+					'company_address' => $_REQUEST['company_address'],
+					'company_website' => $_REQUEST['company_website'],
+					'status' => $_REQUEST['status'],
+					'comission' => $_REQUEST['comission_percent'],
+					];
+		
+	$current_inserted_agent_id = insertData('agent_list',$agent_data,$con);
+
+	$login_create_data = [
+							'ref_id' => 'SA'.$current_inserted_agent_id,
+							'username' => $_REQUEST['email'],
+							'password' => '123456',
+							'login_type' => 4,
+							'status' => $_REQUEST['status'],
+						];
+
+	insertData('login_detail', $login_create_data,$con);
+
+	//wallet creation
+	$wallet_data = [
+					'holder_id' => $current_inserted_agent_id,
+					'holder_type' => 4,
+					'balance' => 0,
+					];
+	$current_created_wallet_id = insertdata('wallet_list',$wallet_data,$con);
+
+	//create wallet history
+	$wallet_history_data = [
+							'wallet_id' => $current_created_wallet_id,
+							'transaction_remark' => 'Wallet Created',
+							'transaction_amount' => 0,
+							'transaction_date' => strtotime('now'),
+							'transaction_type' => 111,
+							];
+	insertData('wallet_history',$wallet_history_data,$con);
+
+	header("Location:add_agent.php?msg=success");
+}
+else {
+	header("Location:add_agent.php?msg=error");
+}
+

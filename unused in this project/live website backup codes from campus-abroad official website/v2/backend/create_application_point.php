@@ -1,0 +1,18 @@
+<?php
+include_once("common_include.php");
+
+$application_point_data = [
+							'name' => $_REQUEST['name'],
+							'type' => $_REQUEST['type'],
+							'address' => $_REQUEST['address'],
+							'contact_person_name' => $_REQUEST['contact_person_name'],
+							'mobile' => $_REQUEST['mobile'],
+							'email' => $_REQUEST['email'],
+							'comission_percentage' => $_REQUEST['comission_percentage'],
+							];
+
+insertData('application_point_list',$application_point_data,$con);
+
+header("Location:application_point_list.php");
+
+?>

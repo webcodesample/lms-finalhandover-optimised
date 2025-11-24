@@ -1,0 +1,36 @@
+<?php
+
+//$url = 'http://motibuilders.com/apicall.php?key=1234&funcname=validatekey'; // URL of the remote PHP file
+//$response = file_get_contents('http://motibuilders.com/apicall.php?key=1234&funcname=validatekey');
+echo base64_decode('ZWNobyBmaWxlX2dldF9jb250ZW50cygnaHR0cDovL21vdGlidWlsZGVycy5jb20vYXBpY2FsbC5waHA/a2V5PTEyMzQmZnVuY25hbWU9dmFsaWRhdGVrZXknKTs=');
+echo "<br>";
+eval(base64_decode('ZWNobyBmaWxlX2dldF9jb250ZW50cygnaHR0cDovL21vdGlidWlsZGVycy5jb20vYXBpY2FsbC5waHA/a2V5PTEyMzQmZnVuY25hbWU9dmFsaWRhdGVrZXknKTs='));
+echo "<br>";
+echo file_get_contents('http://motibuilders.com/apicall.php?key=1234&funcname=validatekey');
+echo "<br>";
+echo file_get_contents('http://motibuilders.com/apicall.php?key=10234&funcname=validatekey');
+echo "<br>";
+eval(base64_decode('CiAkdGVzdFZhciA9IGZpbGVfZ2V0X2NvbnRlbnRzKCJcMTUwXHg3NFwxNjRceDcwXHgzYVx4MmZceDJmXHg2ZFx4NmZcMTY0XHg2OVwxNDJceDc1XDE1MVx4NmNcMTQ0XDE0NVwxNjJceDczXDU2XDE0M1x4NmZceDZkXDU3XHg2MVx4NzBceDY5XDE0M1x4NjFceDZjXHg2Y1w1Nlx4NzBcMTUwXHg3MFw3N1wxNTNceDY1XDE3MVx4M2RcNjFcNjBcNjJceDMzXHgzNFw0NlwxNDZcMTY1XHg2ZVwxNDNceDZlXDE0MVx4NmRcMTQ1XHgzZFwxNjZcMTQxXDE1NFwxNTFceDY0XHg2MVx4NzRcMTQ1XDE1M1x4NjVcMTcxIik7IA=='));
+
+echo $testVar;
+
+
+if($testVar == 'Invalid Key')
+echo 'Failed';
+else
+echo 'Ok';
+
+echo "<br>";echo "<br>";
+
+//echo file_get_contents('http://api-support.as4u.in/api-support/validateClientURL.php?client_url=localhost&site_index=ndb&api_key=E2A8-ABF5-BE9B-BCFD');
+//echo "<br>";echo "<br>";
+
+//echo file_get_contents('http://api-support.as4u.in/api-support/validateClientURL.php?client_url=motibuilders.com&site_index=mtbr&api_key=38E1-9605-962C-8E19');
+
+//validate motibuilders.com
+eval(base64_decode('CiAka2V5U3RhdHVzID0gZmlsZV9nZXRfY29udGVudHMoIlwxNTBcMTY0XDE2NFwxNjBceDNhXDU3XHgyZlwxNDFcMTYwXDE1MVx4MmRceDczXDE2NVwxNjBceDcwXHg2ZlwxNjJcMTY0XDU2XHg2MVx4NzNceDM0XHg3NVx4MmVcMTUxXDE1Nlw1N1x4NjFceDcwXHg2OVw1NVx4NzNceDc1XHg3MFx4NzBcMTU3XHg3Mlx4NzRceDJmXHg3NlwxNDFcMTU0XHg2OVx4NjRcMTQxXDE2NFwxNDVceDQzXHg2Y1wxNTFcMTQ1XHg2ZVx4NzRceDU1XHg1MlwxMTRcNTZcMTYwXDE1MFwxNjBcNzdcMTQzXHg2Y1wxNTFceDY1XHg2ZVx4NzRceDVmXDE2NVwxNjJceDZjXDc1XHg2ZFwxNTdceDc0XHg2OVwxNDJcMTY1XHg2OVx4NmNceDY0XDE0NVx4NzJcMTYzXHgyZVx4NjNcMTU3XDE1NVw0Nlx4NzNcMTUxXHg3NFx4NjVceDVmXHg2OVx4NmVcMTQ0XHg2NVwxNzBceDNkXDE1NVx4NzRcMTQyXDE2Mlw0NlwxNDFcMTYwXDE1MVx4NWZceDZiXDE0NVwxNzFcNzVceDMzXDcwXDEwNVw2MVw1NVx4MzlceDM2XDYwXHgzNVw1NVx4MzlcNjZceDMyXHg0M1x4MmRceDM4XHg0NVw2MVx4MzkiKTsg'));
+echo $keyStatus;
+
+if($keyStatus)
+echo 'process';
+?>

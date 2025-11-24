@@ -1,0 +1,47 @@
+[01-Jul-2024 10:45:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 56
+[01-Jul-2024 10:45:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 56
+[01-Jul-2024 14:50:50 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 56
+[01-Jul-2024 14:50:50 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 56
+[01-Jul-2024 17:41:43 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[03-Jul-2024 09:29:41 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[03-Jul-2024 12:56:58 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 86
+[06-Jul-2024 16:27:46 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_type' in 'field list' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:54
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(54): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/urn_documents.php(91): getFieldValue()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/urn_history_content.php(32): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/content_layout.php(10): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/urn_history.php(60): include_once('/home/d0q72qc8x...')
+#5 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 54
+[06-Jul-2024 16:27:59 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_type' in 'field list' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:54
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(54): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/urn_documents.php(91): getFieldValue()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/urn_history_content.php(32): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/content_layout.php(10): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/urn_history.php(60): include_once('/home/d0q72qc8x...')
+#5 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 54
+[06-Jul-2024 16:28:14 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_type' in 'field list' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:54
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(54): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/urn_documents.php(91): getFieldValue()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/urn_history_content.php(32): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/content_layout.php(10): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/urn_history.php(60): include_once('/home/d0q72qc8x...')
+#5 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 54
+[06-Jul-2024 17:58:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 56
+[10-Jul-2024 17:08:29 Asia/Calcutta] PHP Warning:  Undefined array key "profile_pic" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/update_myprofile.php on line 4
+[10-Jul-2024 17:08:29 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 394
+[10-Jul-2024 17:08:29 Asia/Calcutta] PHP Warning:  Undefined array key "name" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/update_myprofile.php on line 7
+[10-Jul-2024 17:08:29 Asia/Calcutta] PHP Warning:  Undefined array key "mobile" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/update_myprofile.php on line 8
+[10-Jul-2024 17:08:29 Asia/Calcutta] PHP Warning:  Undefined array key "email" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/update_myprofile.php on line 9
+[13-Jul-2024 16:43:43 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[13-Jul-2024 16:43:47 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[15-Jul-2024 15:21:03 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usa' in 'where clause' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/create_urn.php:47
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/create_urn.php(47): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/mgmt/create_urn.php on line 47

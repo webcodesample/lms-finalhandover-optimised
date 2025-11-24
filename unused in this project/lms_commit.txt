@@ -1,0 +1,501 @@
+18-04-2025
+
+local database sql file added in SQL/18-04-2025 AND 
+many unused folder has deleted AND 
+many php files added in crn_management folder AND 
+some files upgraded in site_management & other folders
+
+19-04-2025
+
+new tables crn_company_details, lrn_audit_history, lrn_list, company_type_list, lrn_document_upload_history added in database AND 
+many php files added & upgraded in crn_management folder AND 
+many files updated in lrn_management, lead_management folder AND 
+local database structure with data sql file added in SQL/19-04-2025 folder
+
+21-04-2025
+
+new php files crn_lrn_list.php in crn_management folder AND 
+manage_crn.php updated in crn_management folder AND 
+create_lrn.php updated in lrn_management folder AND 
+common_include.php upgraded in backend_common_includes folder AND 
+many funtions has renamed & upgraded with lms version in function.php & new_functions.php in common folder AND 
+new folder lrn_modules has created with many php files AND 
+many php files has renamed, added, upgraded in many folders like model_boxes, lrn_management, lrn_modules AND 
+local database new sql file added in SQL/21-04-2025 folder
+
+22-04-2025
+
+lrn_list.php, lrn_list_content.php, manage_lrn.php, manage_lrn_content.php, update_lrn_profile.php, update_lrn_guarantor.php updated in lrn_management folder AND 
+function.php upgraded in common folder AND 
+lrn_product.php upgraded & renamed to lrn_loan_detail.php in lrn_modules folder AND 
+new php file update_lrn_loan_detail.php added in lrn_management folder AND 
+new column 'required_loan_amount' added in lrn_audit_history table in database AND 
+local database sql file added in SQL/22-04-2025 folder AND 
+lrn_document_deletion_modal.php upgraded in modal_boxes folder AND 
+many php files has renamed as per current project requirement in all above folders
+
+28-04-2025
+
+new php files audit_section_guarantor_detail.php, lrn_summary_content.php, lrn_summary.php, lrn_summary_profile_section.php, lrn_summary_loan_section.php,
+lrn_summary_guarantor_section.php, lrn_summary_lrn_section.php, lrn_summary_ops_btns.php, lrn_summary_company_section.php added in lrn_modules folder AND 
+audit_section_customer_detail.php, audit_section_loan_detail.php, lrn_guarantor.php, lrn_audit_history.php, lrn_profile.php, lrn_profile_form.php upgraded in lrn_modules folder AND 
+createinput, createTextarea functions moved from lrn_modules/lrn_profile_form.php to common/function.php AND 
+update_lrn_loan_detail.php, update_lrn_profile.php, update_lrn_guarantor.php upgraded in lrn_management folder AND 
+
+01-05-2025
+
+lrn_company_detail.php, lrn_audit_history.php upgraded in lrn_modules AND 
+new columns/fields related to company detail like type,email,doi,mobile,address,turnover added in lrn_audit_history table AND 
+new php file update_lrn_company.php added in lrn_management folder AND 
+new php file audit_section_company_detail.php added in lrn_modules AND 
+local databse backup sql file added to SQL/01-05-2025 folder
+
+02-05-2025
+
+lrn_summary_company_section.php, audit_section_company_detail.php, lrn_company_detail.php, lrn_summary_content.php, 
+lrn_audit_history.php updated in lrn_modules folder AND 
+manage_lrn.php, manage_lrn_content.php upgraded in lrn_management folder AND 
+new folder introducer_management added with required php files AND 
+new table introducer_list added in database AND 
+new folder globals created with some php files AND 
+common_include.php upgraded in backend_common_includes folder AND 
+new column/field 'introducer' added in 'lrn_audit_history' table in database before lunch on 01-05-2025
+
+lrn_summary_loan_section.php, lrn_summary_content.php, lrn_loan_detail.php upgraded in lrn_modules folder AND 
+createinput() function is upgraded in function.php in common folder AND 
+livesearch.js upgraded in js folder AND 
+new php file introducer-ajax.php added in livesearch folder AND 
+new functions extractIdFromInput(), extractIdFromInputs() defined in function.php in common folder AND 
+update_lrn_loan_detail.php, manage_lrn.php updtaed in lrn_management folder AND 
+lrn_bank_detail.php added in lrn_modules folder AND 
+update_lrn_bank.php added in lrn_management folder AND 
+local database backup sql file added in SQL/02-05-2025 folder
+
+03-05-2025
+
+new php file audit_section_bank_detail.php, lrn_summary_bank_section.php added in lrn_modules folder AND 
+lrn_audit_history.php, lrn_summary_content.php, audit_section_guarantor_detail.php updated in lrn_modules folder AND 
+auditHistory.js updated in js folder AND 
+new php file manage.php, manage_content.php added in introducer_management folder
+
+05-05-2025
+
+new function generateTypeDropdown() added in function.php in common folder AND 
+crn_list_content.php, crn_lrn_list.php, manage_crn.php updated in crn_management folder AND 
+lrn_profile_form.php, lrn_loan_detail.php, lrn_summary_loan_section.php updated in lrn_modules folder AND 
+new php file update.php added in introducer_management folder AND 
+function createinput() upgraded in function.php in common folder AND 
+designVars.php upgraded in globals folder AND 
+manage_lrn.php, create_lrn.php(with company detail retrival logic) updated in lrn_managemnt folder AND 
+manage_content.php updated in introducer_managemnt folder till lunch time 01:16 PM on 05-05-2025
+
+
+manage_crn.php, crn_lrn_list.php updated in crn_management folder AND 
+site_info_form.php updated in site_management/admin_module folder AND 
+new php files changeSitelogo.php, change_sitelogo_modal.php added in site_management folder AND 
+one column/field 'product_id' removed from lrn_list table in database AND 
+local database backup sql file added in SQL/05-05-2025 folder till EOD on 05-05-2025
+
+06-05-2025
+
+main.php updated in topbar folder AND 
+changeSitelogo.php updated in site_management folder AND 
+site_info_form.php updated in site_management/admin_modules folder AND 
+new js file validateInputChanges.js added in campus-abroad.js in js folder b4 lunch 06-05-2025
+
+new js function formatDate() added & validateInputChanges() updated with input type date logic in validateInputChanges.js in js folder AND 
+lrn_profile_form.php, lrn_company_detail.php upgraded in lrn_modules folder AND 
+fuctions createinput(), createTextarea() upgraded in function.php in common folder AND 
+crn_basic_details.php, update_customer_profile.php, crn_company_details.php, update_crn_company.php upgraded in crn_management folder till EOD on 06-05-2025
+
+07-05-2025
+
+function urnupdationEmailHistory() renamed to lrnupdationEmailHistory() with upgraded version in function.php in common folder AND 
+update_lrn_profile.php, update_lrn_bank.php, update_call_log.php, update_lrn_company.php, update_lrn_loan_detail.php,
+ update_lrn_guarantor.php, update_call_history.php upgraded in lrn_management folder AND 
+lrn_history.php upgraded, audit_section_company_detail.php in lrn_modules folder AND 
+callback_list_content.php upgraded in communication_history_management folder AND 
+unused tables has removed from database AND 
+local database backup sql file is added in SQL/07-05-2025 folder till 11:44 AM on 07-05-2025
+
+20-05-2025
+
+dashboard_content.php upgraded & new_urn_count_section.php renamed to new_lrn_count_section.php with some updation in mydashboard folder AND 
+lrns_current_week.php, lrns_current_week_content.php has upgraded in lrn_management folder before lunch time 1.16 PM
+
+new php file show_crn_document_modal.php added in crn_management folder AND 
+crn_documents.php, crn_guarantor_list.php upgraded in crn_management folder AND 
+list.php, list_content.php upgraded in introducer_management folder till EOD 20-05-2025
+
+21-05-2025
+
+create_lrn.php upgraded with copying logic of crn documents to lrn in lrn_management folder AND 
+new function copyCRNDocsToLRN($crn,$lrn,$con) added in function.php in common folder AND 
+new file getFileList.php & testcopy folder added for testing purpose only in root folder till 1.00 PM
+
+new js file lms.js added in js folder AND 
+update.php, manage_content.php, add_introducer_modal.php upgraded in introducer_management folder AND 
+designVars.php upgraded in globals folder till EOD 21-05-2025
+
+22-05-2025
+
+new columns/fields added in introducer_list table in databse AND 
+manage_cntent.php upgraded in introducer_management folder AND 
+new php file update_bank.php added in introducer_management folder till lunch time 1.25 PM
+
+designVars.php upgraded in globals folder AND 
+manage_cntent.php upgraded in introducer_management folder AND 
+local database backup sql file added in SQL/22-05-2025 folder AND 
+print_lrn.php, print_lrn_content.php added in lrn_management folder AND 
+manage_lrn_content.php updated in lrn_management folder till EOD 22-05-2025
+
+23-05-2025
+
+new folder lrn_print_modules with many php files AND 
+print_lrn_content.php, manage_lrn_content.php upgraded in lrn_management folder AND 
+function getLatestLRNProfilePic($lrn,$con) upgraded in function.php in common folder AND 
+name_urn_status_bar.php renamed to name_lrn_status_bar.php in lrn_management folder till EOD 23-05-2025
+
+24-05-2025
+
+login_form.php upgraded in common folder AND 
+update_status_modal.php upgraded in lrn_management/modals folder AND 
+update_status.php fully upgraded in lrn_management folder till lunch time 13.25 PM on 24-05-2025
+
+function checkMandatoryDocumentsUploadStatus($lrn,$con) upgraded in function.php in common folder AND 
+name_lrn_status_bar.php, update_status_advance.php upgraded in lrn_management folder AND 
+lrn_guarantor.php, lrn_bank_details.php upgraded in lrn_modules folder AND 
+kill_lead_modal.php, kill_lead_modal_bes.php upgraded in lrn_management/modals folder EOD 24-05-2025 & Everything working fine
+
+26-05-2025
+
+lrn_list_content.php upgraded in lrn_management folder AND 
+lrn_print_lrn_section.php upgraded in lrn_print_modules folder till EOD 26-05-2025
+
+27-05-2025
+
+update_status_advance.php, name_lrn_status_bar.php upgraded in lrn_management folder AND 
+kill_lead_modal.php upgraded in lrn_management/modals folder AND 
+lrn_print_lrn_section.php upgraded in lrn_print_modules folder AND 
+lrn_summary_ops_btns.php, lrn_ops_btns.php, lrn_summary.php upgraded in lrn_modules folder AND 
+new function checkSignedAgreementUploadStatus($lrn,$con) added in function.php in common folder AND 
+new php files generateAgreement.php, view_lrn_agreement.php, view_lrn_agreement_content.php added in lrn_management folder AND 
+new php file generateAgreementModal.php in lrn_management/modals folder AND 
+new fields/columns added in table lrn_audit_history in database AND 
+new table lrn_agreements_list added in database AND 
+local database backup sql file added in SQL/27-05-2025 folder AND 
+new folder agreement_modules added with many files till EOD on 27-05-2025
+
+28-05-2025
+
+new php files uploadSignedAgreement.php added in lrn_management folder AND 
+new php file uploadSignedAgreementModal.php in lrn_management/modals folder AND 
+lrn_summary.php, audit_section_loan_detail.php upgraded in lrn_modules folder till lunch time 01.10 PM on 28-05-2025
+
+document_upload_form.php, uploaded_document_list.php, lrn_documents.php, lrn_history.php upgraded in lrn_modules folder AND 
+new php file uploadDocumentModal.php added in lrn_management/modals folder AND 
+upload_documents.php, manage_lrn.php, name_lrn_status_bar.php upgraded in lrn_management folder AND 
+staff_list.php upgraded in staff_management folder AND 
+new php files lrn_details.php, lrn_activity_history.php added in lrn_modules folder till EOD 28-05-2025
+
+29-05-2025
+
+new function createDisplayField($label,$inputVal,$label_design,$input_design,$type='text'), 
+displaySummaryEditIcon($modalId,$field_visibility) added & createinput() upgraded in function.php in common folder AND 
+lrn_summary & lrn_summary_section related all php files, lrn_loan_detail.php, lrn_bank_detail, 
+lrn_company_detail.php, lrn_guarantor.php, lrn_profile_form.php upgraded in lrn_modules folder AND 
+new folder modals has created with many files in lrn_modules folder till EOD 29-05-2025
+
+30-05-2025
+
+lrnLoanModal.php, lrnGuarantorModal.php, lrnBankModal.php upgraded in lrn_modules/modals folder AND 
+new php file lrnActivityHistoryModal.php added in lrn_modules/modals folder AND 
+manage_lrn.php, manage_lrn_content.php upgraded in lrn_management folder AND 
+function createInput(), createTextarea() upgraded in function.php in common folder AND 
+lrn_activity_history.php, lrn_company_detail.php, lrn_guarantor.php, lrn_loan_detail.php,
+ lrn_bank_detail.php, lrn_profile_form.php upgraded in lrn_modules folder till lunch time 1.30 PM on 30-05-2025
+
+lrnActivityHistoryModal.php upgraded in lrn_modules/modals folder AND 
+campus-abroad.css upgraded in css folder AND 
+lrn_list_content.php, name_lrn_status_bar.php upgraded in lrn_management folder AND 
+lrn_summary_company_section.php, lrn_company_detail.php, lrn_ops_btns.php upgraded in lrn_module folder AND 
+designVars.php upgraded in globals folder AND 
+function setGoBack($goback_url) upgraded in function.php in common folder till EOD 30-05-2025
+
+31-05-2025
+
+manage_lrn.php, manage_lrn_content.php, name_lrn_status_bar.php upgraded in lrn_management folder AND 
+lrn_ops_btns.php, lrn_summary_ops_btns.php, lrn_summary_bank_section.php, lrn_summary_company_section.php, lrn_summary_profile_section.php, 
+lrn_summary_company_section.php, lrn_summary_guarantor_section.php, uploaded_document_list.php, lrn_communication_history.php upgraded in lrn_modules folder AND 
+function displaySummaryEditIcon($modalId,$field_visibility,$urn_using_by_me) upgraded in function.php in common folder AND 
+common_include.php upgraded in backend_common_includes folder till lunch time 1.35 PM on 31-05-2025
+
+manage_lrn.php, manage_lrn_content.php, name_lrn_status_bar.php, update_status.php upgraded in lrn_management folder AND  
+uploaded_document_list.php, lrn_summary_content.php upgraded in lrn_modules folder AND 
+new table dispatch_list added in database AND 
+local database sql file added in SQL/31-05-2025 folder AND 
+new folder lan_management added with many php files till EOD 31-05-2025
+
+02-06-2025
+
+dispatch_list.php, dispatch_list_content.php, upgraded in lan_management folder AND 
+new php files datewise_dispatch_list.php, datewise_dispatch_list_content.php, approveDispatch.php added in lan_management folder AND 
+update_status.php upgraded in lrn_management folder AND 
+table dispatch_list is upgraded with new column/field approval_datentime in database till lunch timne 2.05 PM on 02-06-2025
+
+dispatch_list.php, dispatch_list_content.php, datewise_dispatch_list.php, datewise_dispatch_list_content.php,
+ approveDispatch.php upgraded in lan_management folder AND 
+new table lan_audit_history added in database AND 
+new column/field status added in table dispatch_list in database AND 
+local database backup sql file added in SQL/02-06-2025 till EOD on 02-06-2025
+
+03-06-2025
+
+new table lan_activity_history added in database AND 
+column/field approval_date, dispatch_date removed from table lan_audit_history in database AND 
+lrn_ops_btns.php upgraded in lrn_modules folder AND 
+update_status.php upgraded in lrn_management folder AND 
+approveDispatch.php upgraded in lan_management folder AND 
+manage_lan.php, manage_lan_content.php added in lan_management folder AND 
+new folder lan_modules with many php files added till lunch time 2.30 PM on 03-06-2025
+
+new php file print_lan.php, print_lan_content.php added in lan_management folder AND 
+many php files added in lan_modules folder AND 
+local database backup sql file added in SQL/03-06-2025 till EOD on 03-06-2025
+
+04-06-2025
+
+new php files added loan_calculator folder till lunch time 2.00 PM on 04-06-2025
+
+new php files lan_list.php, lan_list_content added in lan_management folder AND 
+new php file calculate_emi_interest_only.php added in loan_calculator folder AND 
+local database backup sql file added in SQL/04-06-2025 folder till EOD 04-06-2025
+
+05-06-2025
+
+new table repayment_schedule_list added in database AND 
+local database backup sql file added SQL/05-06-2025 AND 
+new php files due_payment_list.php, due_payment_list_content.php, datewise_due_payment_list.php,
+ datewise_due_payment_list.php, generateRepaymentSchedule.php added in lan_management folder AND 
+lan_list_content.php upgraded in lan_management folder till EOD ON 05-06-2025
+
+07-06-2025
+new php files missed_payment_list.php, missed_payment_list_content.php, datewise_missed_payment_list.php, datewise_missed_payment_list_content.php, 
+rcvd_payment_list.php, rcvd_payment_list_content.php, datewise_rcvd_payment_list.php, datewise_rcvd_payment_list_content.php, 
+generateLANLedger.php added in lan_management folder AND 
+detewise_due_payment_list_content.php, manage_lan.php upgraded in lan_management folder AND 
+new table lan_ledger_transactions added in database AND 
+new php file lan_ledger.php added in lan_modules folder AND 
+new columns/fields principal, interest added in table repayment_schedule_list in database AND 
+local database backup sql file added in SQL/07-06-2025 folder till EOD ON 07-06-2025
+
+09-06-2025
+
+new php file lan_repayment_schedule.php added in lan_modules folder AND 
+new php file rcvdLANPayment.php added in lan_management folder AND 
+generateRepaymentSchedule.php, generateLANLedger.php, datewise_due_payment_list_content.php, 
+ manage_lan.php,  upgraded in lan_management folder AND 
+lan_ledger.php upgraded in lan_modules folder till EOD ON 09-08-2025
+
+10-06-2025
+
+missed_payment_list.php, due_payment_list.php, rcv_payment_list.php, 
+rcvdLANPayment.php upgraded in lan_management folder AND 
+new php manageLANPayment.php added in lan_management folder till lunch time 1.30 PM ON 10-06-2025
+
+lan_repayment_schedule.php, lan_ledger.php upgraded in lan_modules folder AND 
+manageLANPayment.php upgraded in lan_management folder AND 
+new php file extendLoan.php added in lan_management folder AND
+new folder lan_management/modals added with many files till EOD ON 10-06-2025
+
+12-06-2025
+
+generateLANLedger.php, generateRepaymentSchedule.php upgraded with new funtions in lan_management folder AND 
+extendLoan.php upgraded in lan_management folder AND 
+new php file topupLoan.php added in lan_management folder 
+loanExtensionModal.php, loanTopupModal.php upgraded in lan_management/modals folder till EOD ON 12-06-2025
+
+13-06-2025
+
+lan_ledger.php, lan_repayment_schedule.php upgraded in lan_modules folder AND 
+new php files lan_activity_history.php added in lan_modules folder AND 
+new php files lanActivityHistoryModal.php added in lan_modules/modals folder AND 
+manage_lan_content.php, lopupLoan.php upgraded in lan_management folder AND 
+new php folder updateROI.php added in lan_management folder AND 
+loanUpdateROIModal.php upgraded in lan_management/modals folder till EOD ON 13-06-2025
+
+14-06-2025
+
+manageLANPayment.php, updateROI.php upgraded in lan_management folder AND 
+new php file partPaymentLoan.php added in lan_management folder AND 
+lan_repayment_schedule.php upgraded in lan_modules folder AND 
+loanPartPaymentModal.php upgraded in lan_management/modals folder AND 
+local database backup sql file added in SQL/14-06-2025 till EOD ON 14-06-2025
+
+19-06-2025
+
+new table lan_processing_charges_list added to database AND 
+local databse backup added in SQL/19-06-2025 AND 
+many new files added in many files upgraded in many folder till EOD ON 19-06-2025
+
+21-06-2025
+
+topupLoan.php, applyWaiver.php upgraded in lan_management folder but applyWaiver.php logic is not completed so it is not working
+
+25-06-2025
+
+new column/field 'other_charges' added in table 'repayment_schedule_list' in database AND 
+local databse backup sql file added in SQL/25-06-2025 folder AND 
+many files related to repayment schedule/ledger has upgraded in lan_management & other folder AND 
+commion_include.php upgraded in backend_common_includes folder till EOD ON 25-06-2025
+
+30-06-2025
+
+functions validateLoginType($login_type),showAuthorizedMenuOptions($con,$staff_id) upgraded in function.php in common folder AND 
+new functions lockLANByMe, unlockLANByMe, getLANCurrentUser aded in function.php in common folder AND 
+common_include.php upgraded in backend_common_includes folder AND 
+manage_lan.php, manage_lan_content.php upgraded in lan_management folder AND 
+lan_ledger.php, lan_repayment_schedule.php upgraded in lan_modules folder AND 
+dashboard.php upgraded in mydashboard folder AND 
+login.php upgraded in APP folder AND 
+new folder customer created with many files (all files are not in use) till EOD ON 30-06-2025
+new table 'working_on_lan_list' added to database AND 
+local database backup sql file added to SQL/30-06-2025 AND 
+
+01-07-2025
+
+many files upgraded in customer folder AND 
+related to customer lanlist, lan-detail, lrnlist, lrn-detail in many other folders till EOD ON 01-07-2025
+
+02-07-2025
+
+new tables customer_request_list, customer_request_type_list, lan_list(but this table not is use) added in database AND 
+local database backup sql file added in SQL/02-07-2025 folder AND 
+new php files lanRequestModal.php added in customer/modals folder AND 
+new php files createLANRequest.php added in customer folder AND 
+new php files lan_ledger_ops_btns.php added in lan_modules folder AND 
+lan_ledger.php upgraded in lan_modules folder AND 
+many php files added & upgraded in lan_modules, lan_management, customer folders till EOD ON 02-07-2025
+
+03-07-2025
+
+many new php files added & upgraded in lan_management, lan_modules, customer folders & their subfolders till EOD ON 03-07-2025
+
+04-07-2025
+
+new field/column 'credit_limit' added in table lan_audit_history in database AND 
+local database backup sql file added in SQL/04-07-2025 folder AND 
+many php files has upgraded in lan_management, lan_modules, customer & other folders till EOD ON 04-07-2025
+
+05-07-2025
+
+new field/column 'credit_limit' added in table customers_list in database AND 
+local database backup sql file added in SQL/04-07-2025 folder AND 
+many php files has upgraded in lan_management, lan_modules till EOD ON 05-07-2025
+
+09-07-2025
+
+many files upgraded in lan_management folder till EOD ON 09-07-2025
+
+10-07-2025
+
+many files updated in lan_management folder AND 
+favicon related folder has upgraded till EOD ON 10-07-2025
+
+15-07-2025
+
+new php files import_bank_sheet.php, import_bank_sheet_content.php added in lan_management folder AND 
+new php files importBankSheetModal.php added in lan_management/modals folder AND 
+dispatch_list_content.php, datewise_dispatch_list_content.php upgraded in lan_management folder till 15.55 PM ON 15-07-2025
+
+create_lrn.php upgraded in lrn_management folder AND 
+lrn_summary_content.php upgraded in lrn_modules folder till EOD ON 15-07-2025
+
+16-07-2025
+
+temp_leads.php, temp_leads_content.php, import_leads.php, import_leads_content.php upgraded as per client(tanvi) sugesstion in lead_management folder AND 
+new folder loan_eligibility_calculator added till EOD ON 16-07-2025
+
+17-07-2025
+
+new folders loan_eligibility_calculator, chatbot added till lunch time 01.05 PM ON 17-07-2025
+
+new php file site_info_readonly.php, lms_features.php, lms_features_content.php, processing_fee_rate_list.php, company_type_list.php, 
+add_company_type.php, add_processing_charge.php added in site_management folder AND 
+site_settings_content.php upgraded in site_management folder AND 
+new table processing_charges_list added in database AND 
+local database backup sql file added in SQL/17-07-2025 folder till EOD ON 17-07-2025
+ 
+18-07-2025
+
+new php files staff_activity_history.php, staff_activity_history_content.php, lanwise_activity_history.php,
+ lrnwise_activity_history.php added in staff_management folder AND 
+new php files customer_report.php, customer_report_content.php added in report_management folder AND 
+staff_list_content.php upgraded in staff_management folder till EOD ON 18-07-2025
+
+19-07-2025
+
+new php files product_performance_report.php, product_performance_report_content.php
+ added in report_management folder AND 
+lan_ledger.php upgraded in lan_modules folder till Lunch time 01.09 PM ON 19-07-2025
+
+new table chat_history added in database AND 
+local database backup sql file added in SQL/19-07-2025 AND 
+new php files chat_list.php, chat_list_content.php, chat_history.php, chat_history_content.php added in customer folder AND 
+chat_list.php, chat_list_content.php upgraded in chat_management folder AND 
+getChatMessages_ajax.php upgraded in common folder till EOD ON 19-07-2025
+
+21-07-2025
+
+lrn_list_content.php upgraded in lrn_management folder AND 
+logout.php upgraded in App folder AND 
+lrn_company_detail.php upgraded in lrn_modules folder AND 
+chat_history_content.php upgraded in chat_management folder AND 
+new php file getChatUserLoginStatus_ajax.php added in common folder AND 
+auto_refresh_chat_list.php upgraded with new function getChatUserLoginStatus() in common folder till EOD ON 21-07-2025
+
+22-07-2025
+
+auto_refresh_chat_list.php upgraded in common folder AND 
+chat_history_content.php upgraded in customer & chat_management folder till EOD ON 22-07-2025
+
+23-07-2025
+
+minor changes till EOD ON 23-07-2025
+
+24-07-2025
+
+processing_fee_rate_list.php upgraded in site_management folder AND 
+new php files update_processing_charge.php in site_management folder AND 
+new function getProcessingChargeRate($rateDescription,$con) added in function.php in common folder AND 
+ledger-schedule-functions.php upgraded in common folder AND 
+local database backup sql file added in SQL/24-07-2025 folder till EOD ON 24-07-2025
+
+25-07-2025
+
+topupLoan.php, updateROI.php, extendLoan.php upgraded in lan_management folder till lunch time 1.00 PM ON 25-07-2025
+
+28-07-2025 & 29-07-2025
+
+many files in customer, chat_managemnt & common folder has upgraded to implement common chat support logic for customer
+ even when in backend any staff is entertaining till lunch time 1.20 PM ON 29-07-2025
+
+31-07-2025
+
+common_include.php upgraded in customer & chat_management folder AND 
+new table chat_session_list added in database AND 
+local database backup sql file added in SQL/31-07-2025 till EOD ON 31-07-2025
+
+01-08-2025
+
+chat_list.php, chat_list_content.php, common_include.php, chat_history.php, chat_history_content.php
+ upgraded in chat_management folder AND 
+new php endChat.php added in chat_management folder till lunch 1.25 PM ON 01-08-2025 
+
+common_include.php, chat_history.php, chat_history_content.php upgraded in customer folder AND 
+new php endChat.php added in customer folder AND 
+new field/columns 'started_on, updated_on' added in chat_sessions_list table in database AND 
+local database backup sql file added in SQL/01-08-2025 folder till EOD ON 01-08-2025
+
+02-08-2025
+

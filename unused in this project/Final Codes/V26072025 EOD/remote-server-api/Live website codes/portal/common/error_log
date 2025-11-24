@@ -1,0 +1,36 @@
+[15-Jun-2024 05:14:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'CampusAbroadPortalOld'@'localhost' to database 'CampusAbroadPortalOld' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php:15
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php(15): mysqli_connect()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/makedll.php(7): include_once('/home/d0q72qc8x...')
+#2 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php on line 15
+[15-Jun-2024 05:15:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'CampusAbroadPortalOld'@'localhost' (using password: YES) in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php:15
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php(15): mysqli_connect()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/makedll.php(7): include_once('/home/d0q72qc8x...')
+#2 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php on line 15
+[15-Jun-2024 05:17:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'CampusAbroadPortalOld'@'localhost' to database 'CampusAbroadPortalOld' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php:15
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php(15): mysqli_connect()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/makedll.php(7): include_once('/home/d0q72qc8x...')
+#2 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php on line 15
+[15-Jun-2024 05:22:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'CampusAbroadPortalOld'@'localhost' to database 'CampusAbroadPortalOld' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php:15
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php(15): mysqli_connect()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/makedll.php(7): include_once('/home/d0q72qc8x...')
+#2 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/set_con.php on line 15
+[11-Jul-2024 17:45:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's very important to join meeting today',sender_id = 'BS2',receiver_id = 'BS8'...' at line 1 in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:281
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(281): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/createChatRecord_ajax.php(13): insertData()
+#2 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 281
+[11-Jul-2024 17:46:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's important to join meeting today',sender_id = 'BS2',receiver_id = 'BS8',date...' at line 1 in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:281
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(281): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/createChatRecord_ajax.php(13): insertData()
+#2 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 281

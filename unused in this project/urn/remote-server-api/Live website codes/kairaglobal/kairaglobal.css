@@ -1,0 +1,47 @@
+body {
+    height:100%;
+    margin:0px;
+}
+
+.bg {
+    background-image:url("Images/bg.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divbg {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.topbanner {
+    height: 700px;
+    width: 100%;
+    background-image: url("Images/kaira.jpg");
+    background-position: bottom left;
+    background-color: #ffffff;
+}
+
+.review {
+    height: 300px;
+    width: 100%;
+    background-image: url("Images/review.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+}
+
+.navbgsocial{
+    background-color:#FAA843;
+}

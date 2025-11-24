@@ -1,0 +1,299 @@
+[15-Jun-2024 12:20:56 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[17-Jun-2024 11:14:38 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'arch' in 'where clause' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/urn_course_selection.php:44
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/urn_course_selection.php(44): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/urn_course_selection.php on line 44
+[18-Jun-2024 17:52:15 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function setGoBack() in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/add_lead_content.php:3
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/content_layout.php(10): include_once()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/add_lead.php(6): include_once('/home/d0q72qc8x...')
+#2 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/add_lead_content.php on line 3
+[18-Jun-2024 12:24:18 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/myprofile.php on line 3
+[18-Jun-2024 12:24:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/myprofile.php on line 3
+[18-Jun-2024 12:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getRowsDataCon() in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/myprofile.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/myprofile.php on line 5
+[19-Jun-2024 01:37:09 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/myprofile.php on line 3
+[19-Jun-2024 01:37:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/myprofile.php on line 3
+[19-Jun-2024 01:37:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getRowsDataCon() in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/myprofile.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/myprofile.php on line 5
+[19-Jun-2024 09:44:34 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[19-Jun-2024 15:29:39 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[19-Jun-2024 16:43:09 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[22-Jun-2024 09:11:26 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/login.php on line 21
+[22-Jun-2024 09:11:26 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/login.php on line 23
+[22-Jun-2024 09:11:26 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/login.php on line 24
+[22-Jun-2024 09:11:39 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/login.php on line 21
+[22-Jun-2024 09:11:39 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/login.php on line 23
+[22-Jun-2024 09:11:39 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/login.php on line 24
+[22-Jun-2024 09:14:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'USA' in 'where clause' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/create_urn.php:47
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/create_urn.php(47): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/create_urn.php on line 47
+[22-Jun-2024 09:15:45 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[22-Jun-2024 09:15:45 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[22-Jun-2024 09:15:45 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[22-Jun-2024 09:15:45 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[22-Jun-2024 09:15:45 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[22-Jun-2024 09:15:45 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[22-Jun-2024 15:18:47 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[24-Jun-2024 09:18:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:18:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:18:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:18:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:18:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:18:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:21:40 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:21:40 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:21:40 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:21:40 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:21:40 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:21:40 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:23:14 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:23:14 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:23:14 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:23:14 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:23:14 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:23:14 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:24:33 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:24:33 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:24:33 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:24:33 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:24:33 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:24:33 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:24:42 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:24:42 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:24:42 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:24:42 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:24:42 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:24:42 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:25:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:25:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:25:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:25:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:25:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:25:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:26:19 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:26:19 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:26:19 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:26:19 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:26:19 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:26:19 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:26:54 Asia/Calcutta] PHP Warning:  Undefined array key "current_status_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/update_status.php on line 5
+[24-Jun-2024 09:26:54 Asia/Calcutta] PHP Warning:  Undefined array key "current_status_batch_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/update_status.php on line 6
+[24-Jun-2024 09:26:54 Asia/Calcutta] PHP Warning:  Undefined array key "current_status_batch_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/update_status.php on line 12
+[24-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:26:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:27:33 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:29:45 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:30:20 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:30:25 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:30:25 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:30:25 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:30:25 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:30:25 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:30:25 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:30:37 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:30:37 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:30:37 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:30:37 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:30:37 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:30:37 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:31:02 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:31:05 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:31:05 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:31:05 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:31:05 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:31:05 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:31:05 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:31:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:31:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:31:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:31:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:31:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:31:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:34:54 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:39:23 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:39:37 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:39:39 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:39:39 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:39:39 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:39:39 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:39:39 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:39:39 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 09:41:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 09:41:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 09:41:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 09:41:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 09:41:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 09:41:11 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 15:45:54 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:46:03 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:46:08 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:46:08 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:46:08 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:46:08 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 15:46:08 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 15:46:08 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 15:46:08 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 15:46:08 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:46:08 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 15:49:10 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:49:10 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:49:10 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:49:10 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 15:49:10 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 15:49:10 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 15:49:10 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 15:49:10 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 15:49:10 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 16:10:20 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 16:59:34 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[24-Jun-2024 16:59:35 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[24-Jun-2024 16:59:55 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:00:52 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:12:21 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:16 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:20 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:30 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:34 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:34 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:34 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:34 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 146
+[24-Jun-2024 17:19:34 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 147
+[24-Jun-2024 17:19:34 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 148
+[24-Jun-2024 17:19:34 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 149
+[24-Jun-2024 17:19:34 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:34 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/audit_history.php on line 150
+[24-Jun-2024 17:19:46 Asia/Calcutta] PHP Warning:  Undefined array key "current_status_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/update_status.php on line 5
+[24-Jun-2024 17:19:46 Asia/Calcutta] PHP Warning:  Undefined array key "current_status_batch_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/update_status.php on line 6
+[24-Jun-2024 17:19:46 Asia/Calcutta] PHP Warning:  Undefined array key "current_status_batch_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/admin/update_status.php on line 12
+[24-Jun-2024 17:19:47 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:47 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:47 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:47 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:19:47 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:24:13 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:24:23 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:25:17 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:32:09 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[24-Jun-2024 17:41:14 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/function.php on line 56
+[25-Jun-2024 17:23:48 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[27-Jun-2024 09:49:15 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[27-Jun-2024 11:04:58 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal-new/common/validate_session.php on line 3
+[28-Jun-2024 16:11:19 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[28-Jun-2024 16:20:05 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'test' in 'where clause' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/view_course.php:45
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/view_course.php(45): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/view_course.php on line 45
+[01-Jul-2024 10:15:21 Asia/Calcutta] PHP Warning:  Undefined array key "type" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/create_agent.php on line 4
+[01-Jul-2024 10:15:21 Asia/Calcutta] PHP Warning:  Undefined array key "type" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/create_agent.php on line 26
+[01-Jul-2024 10:21:36 Asia/Calcutta] PHP Warning:  Undefined array key "status" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/create_sales_person.php on line 18
+[01-Jul-2024 10:21:36 Asia/Calcutta] PHP Warning:  Undefined array key "status" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/create_sales_person.php on line 30
+[03-Jul-2024 09:35:58 Asia/Calcutta] PHP Warning:  Undefined array key "company_name" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/create_agent.php on line 31
+[03-Jul-2024 09:35:58 Asia/Calcutta] PHP Warning:  Undefined array key "company_address" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/create_agent.php on line 32
+[03-Jul-2024 09:35:58 Asia/Calcutta] PHP Warning:  Undefined array key "company_website" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/create_agent.php on line 33
+[03-Jul-2024 09:37:12 Asia/Calcutta] PHP Warning:  Undefined array key "type" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/create_agent.php on line 4
+[03-Jul-2024 09:37:12 Asia/Calcutta] PHP Warning:  Undefined array key "type" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/create_agent.php on line 26
+[03-Jul-2024 10:13:25 Asia/Calcutta] PHP Warning:  Undefined variable $con in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/leads.php on line 30
+[03-Jul-2024 10:13:25 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/leads.php:30
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/leads.php(30): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/leads.php on line 30
+[03-Jul-2024 10:13:30 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getRowCount() in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history.php on line 52
+[03-Jul-2024 10:13:36 Asia/Calcutta] PHP Warning:  Undefined variable $con in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/leads.php on line 30
+[03-Jul-2024 10:13:36 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/leads.php:30
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/leads.php(30): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/leads.php on line 30
+[03-Jul-2024 10:13:37 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getRowsData() in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/temp_leads.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/temp_leads.php on line 4
+[03-Jul-2024 10:13:38 Asia/Calcutta] PHP Warning:  Undefined variable $site in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/head_crm.php on line 13
+[03-Jul-2024 10:13:38 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/head_crm.php on line 13
+[03-Jul-2024 10:13:38 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function getRowCountWC() in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/lead_management_menu_items.php:2
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/navbar_side.php(69): include_once()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/head_crm.php(72): include_once('/home/d0q72qc8x...')
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/content_layout.php(5): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/dashboard.php(6): include_once('/home/d0q72qc8x...')
+#4 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/lead_management_menu_items.php on line 2
+[03-Jul-2024 12:00:00 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[06-Jul-2024 16:28:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_type' in 'field list' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:54
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(54): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_documents.php(91): getFieldValue()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history_content.php(32): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/content_layout.php(10): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history.php(60): include_once('/home/d0q72qc8x...')
+#5 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 54
+[06-Jul-2024 16:29:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_type' in 'field list' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:54
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(54): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_documents.php(91): getFieldValue()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history_content.php(32): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/content_layout.php(10): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history.php(60): include_once('/home/d0q72qc8x...')
+#5 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 54
+[06-Jul-2024 16:32:47 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_type' in 'field list' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:54
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(54): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_documents.php(91): getFieldValue()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history_content.php(32): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/content_layout.php(10): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history.php(60): include_once('/home/d0q72qc8x...')
+#5 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 54
+[06-Jul-2024 16:50:10 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_type' in 'field list' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:54
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(54): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_documents.php(91): getFieldValue()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history_content.php(32): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/content_layout.php(10): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history.php(60): include_once('/home/d0q72qc8x...')
+#5 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 54
+[06-Jul-2024 16:50:24 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'role_type' in 'field list' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:54
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(54): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_documents.php(91): getFieldValue()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history_content.php(32): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/content_layout.php(10): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/urn_history.php(60): include_once('/home/d0q72qc8x...')
+#5 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 54
+[06-Jul-2024 17:09:22 Asia/Calcutta] PHP Warning:  Undefined variable $wallet_balance_new in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/agent_ledger.php on line 84
+[06-Jul-2024 17:17:30 Asia/Calcutta] PHP Warning:  Undefined variable $wallet_balance_new in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/agent_ledger.php on line 84
+[06-Jul-2024 17:17:49 Asia/Calcutta] PHP Warning:  Undefined variable $wallet_balance_new in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/agent_ledger.php on line 84
+[06-Jul-2024 17:21:21 Asia/Calcutta] PHP Warning:  Undefined variable $wallet_balance_new in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/admin/agent_ledger.php on line 84
+[10-Jul-2024 17:12:28 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[12-Jul-2024 09:10:59 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[12-Jul-2024 13:18:16 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[12-Jul-2024 14:48:52 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[12-Jul-2024 14:48:59 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[12-Jul-2024 15:50:29 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[13-Jul-2024 12:53:13 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[13-Jul-2024 12:53:20 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3

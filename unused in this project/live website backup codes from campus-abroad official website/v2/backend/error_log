@@ -1,0 +1,28 @@
+[09-Nov-2024 15:19:20 Asia/Calcutta] PHP Warning:  include_once(advance_functions.php): Failed to open stream: No such file or directory in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/set_con.php on line 3
+[09-Nov-2024 15:19:20 Asia/Calcutta] PHP Warning:  include_once(): Failed opening 'advance_functions.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/set_con.php on line 3
+[09-Nov-2024 15:19:20 Asia/Calcutta] PHP Warning:  include_once(function.php): Failed to open stream: No such file or directory in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/set_con.php on line 4
+[09-Nov-2024 15:19:20 Asia/Calcutta] PHP Warning:  include_once(): Failed opening 'function.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/set_con.php on line 4
+[09-Nov-2024 15:19:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function setfileURL() in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/set_con.php:17
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/pub/common_include.php(4): include_once()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/backend/login.php(2): include_once('/home/d0q72qc8x...')
+#2 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/set_con.php on line 17
+[09-Nov-2024 15:47:01 Asia/Calcutta] PHP Warning:  file_get_contents(../common/codes.json): Failed to open stream: No such file or directory in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/getCode.php on line 4
+[09-Nov-2024 15:47:01 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/getCode.php:6
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/advance_functions.php(3): getCode()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/set_con.php(3): include_once('/home/d0q72qc8x...')
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/pub/common_include.php(4): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/backend/login.php(2): include_once('/home/d0q72qc8x...')
+#4 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/getCode.php on line 6
+[09-Nov-2024 17:36:02 Asia/Calcutta] PHP Warning:  file_get_contents(../common/codes.json): Failed to open stream: No such file or directory in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/getCode.php on line 4
+[09-Nov-2024 17:36:02 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/getCode.php:6
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/advance_functions.php(3): getCode()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/set_con.php(3): include_once('/home/d0q72qc8x...')
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/pub/common_include.php(4): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/backend/login.php(2): include_once('/home/d0q72qc8x...')
+#4 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/getCode.php on line 6

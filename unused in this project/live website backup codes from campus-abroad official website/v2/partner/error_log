@@ -1,0 +1,101 @@
+[19-Jul-2024 16:16:10 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'parent_menu_id' in 'where clause' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php:310
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(310): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(587): getRowsDataCon()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/sidebar/main.php(11): generateSidebarMenu()
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/head_crm.php(74): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/content_layout.php(5): include_once('/home/d0q72qc8x...')
+#5 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/dashboard.php(6): include_once('/home/d0q72qc8x...')
+#6 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 310
+[19-Jul-2024 16:28:09 Asia/Calcutta] PHP Warning:  Undefined variable $tem_leads_list in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/temp_leads_content.php on line 58
+[19-Jul-2024 16:28:09 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/temp_leads_content.php:58
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/temp_leads_content.php(58): mysqli_fetch_assoc()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/content_layout.php(10): include_once('/home/d0q72qc8x...')
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/temp_leads.php(11): include_once('/home/d0q72qc8x...')
+#3 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/temp_leads_content.php on line 58
+[14-Aug-2024 17:20:04 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[20-Aug-2024 15:34:13 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[21-Aug-2024 12:03:05 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[23-Aug-2024 13:47:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'authorised_submenu_options' in 'field list' in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php:54
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(54): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(604): getFieldValue()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(663): generateSubmenu()
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/sidebar/main.php(12): generateSidebarMenu()
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/head_crm.php(74): include_once('/home/d0q72qc8x...')
+#5 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/content_layout.php(5): include_once('/home/d0q72qc8x...')
+#6 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/dashboard.php(6): include_once('/home/d0q72qc8x...')
+#7 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 54
+[23-Aug-2024 15:05:57 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[23-Aug-2024 15:23:28 Asia/Calcutta] PHP Warning:  Undefined array key "menu_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 649
+[23-Aug-2024 15:23:28 Asia/Calcutta] PHP Warning:  Undefined array key "user_table" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 652
+[23-Aug-2024 15:26:37 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'submenu_items WHERE parent_menu_item_id = 12' at line 1 in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php:611
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(611): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(674): generateSubmenu()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/sidebar/main.php(12): generateSidebarMenu()
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/head_crm.php(74): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/content_layout.php(5): include_once('/home/d0q72qc8x...')
+#5 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/dashboard.php(6): include_once('/home/d0q72qc8x...')
+#6 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 611
+[23-Aug-2024 15:27:09 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'submenu_items WHERE parent_menu_item_id = 12' at line 1 in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php:611
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(611): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(674): generateSubmenu()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/sidebar/main.php(12): generateSidebarMenu()
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/head_crm.php(74): include_once('/home/d0q72qc8x...')
+#4 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/content_layout.php(5): include_once('/home/d0q72qc8x...')
+#5 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/dashboard.php(6): include_once('/home/d0q72qc8x...')
+#6 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 611
+[23-Aug-2024 17:01:08 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[28-Aug-2024 11:15:47 Asia/Calcutta] PHP Warning:  Undefined array key "test_name_old" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_academic_details.php on line 76
+[28-Aug-2024 11:34:52 Asia/Calcutta] PHP Warning:  Undefined array key "test_name_old" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_academic_details.php on line 76
+[28-Aug-2024 11:54:49 Asia/Calcutta] PHP Warning:  Undefined array key "lead_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_call_log.php on line 4
+[28-Aug-2024 11:54:49 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 56
+[28-Aug-2024 11:54:49 Asia/Calcutta] PHP Warning:  Undefined array key "lead_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_call_log.php on line 7
+[28-Aug-2024 11:54:49 Asia/Calcutta] PHP Warning:  Undefined array key "call_remark" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_call_log.php on line 9
+[28-Aug-2024 11:54:49 Asia/Calcutta] PHP Warning:  Undefined array key "callback_date" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_call_log.php on line 16
+[28-Aug-2024 11:54:49 Asia/Calcutta] PHP Warning:  Undefined array key "lead_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_call_log.php on line 28
+[28-Aug-2024 11:54:50 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/urn_history.php on line 86
+[28-Aug-2024 11:54:50 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 56
+[28-Aug-2024 11:54:50 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 56
+[28-Aug-2024 11:54:50 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 56
+[28-Aug-2024 11:54:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND callback_datentime > 1724826290' at line 1 in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/urn_history.php:95
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/urn_history.php(95): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/urn_history.php on line 95
+[28-Aug-2024 12:30:25 Asia/Calcutta] PHP Warning:  Undefined array key "test_name_old" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_academic_details.php on line 76
+[28-Aug-2024 12:40:32 Asia/Calcutta] PHP Warning:  Undefined array key "test_name_old" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_academic_details.php on line 76
+[28-Aug-2024 13:03:16 Asia/Calcutta] PHP Warning:  Undefined array key "test_name_old" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_academic_details.php on line 76
+[28-Aug-2024 13:12:20 Asia/Calcutta] PHP Warning:  Undefined array key "test_name_old" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/update_academic_details.php on line 76
+[04-Oct-2024 15:55:49 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[05-Oct-2024 11:39:58 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[05-Oct-2024 11:45:18 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ld.allocated_id = 'SP3' AND lsl.description != 'Deleted' ORDER BY ld.datentim...' at line 1 in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/leads_current_week.php:35
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/leads_current_week.php(35): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/partner/leads_current_week.php on line 35
+[05-Oct-2024 12:10:48 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[05-Oct-2024 12:10:52 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[05-Oct-2024 14:59:51 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[22-Oct-2024 12:38:44 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[22-Oct-2024 12:38:52 Asia/Calcutta] PHP Warning:  Undefined array key "menu_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 661
+[22-Oct-2024 12:38:52 Asia/Calcutta] PHP Warning:  Undefined array key "user_table" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 664
+[22-Oct-2024 12:38:58 Asia/Calcutta] PHP Warning:  Undefined array key "menu_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 661
+[22-Oct-2024 12:38:58 Asia/Calcutta] PHP Warning:  Undefined array key "user_table" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 664
+[22-Oct-2024 12:39:02 Asia/Calcutta] PHP Warning:  Undefined array key "menu_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 661
+[22-Oct-2024 12:39:02 Asia/Calcutta] PHP Warning:  Undefined array key "user_table" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php on line 664
+[22-Oct-2024 15:11:00 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[14-Nov-2024 15:43:16 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[14-Nov-2024 17:06:32 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/validate_session.php on line 3
+[14-Nov-2024 17:07:41 Asia/Calcutta] PHP Warning:  Undefined array key "menu_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(3) : eval()'d code on line 2
+[14-Nov-2024 17:07:41 Asia/Calcutta] PHP Warning:  Undefined array key "user_table" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(3) : eval()'d code on line 2
+[14-Nov-2024 17:08:04 Asia/Calcutta] PHP Warning:  Undefined array key "menu_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(3) : eval()'d code on line 2
+[14-Nov-2024 17:08:04 Asia/Calcutta] PHP Warning:  Undefined array key "user_table" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/common/function.php(3) : eval()'d code on line 2

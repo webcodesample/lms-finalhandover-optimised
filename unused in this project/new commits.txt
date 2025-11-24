@@ -1,0 +1,162 @@
+09-11-2024
+
+new files getCode.php, codes.json added in common folder AND getCode.php included in set_con.php, functions.php, advance_functions.php, set_fileurl.php
+
+11-11-2024
+
+new php file new_functions.php added in common folder AND new_functions.php is included in common_include.php in partner/staff/student all three folders AND new folder urn_modules added in root folder with new php files deleted_document_list.php, uploaded_document_list.php, urn_ops_btns.php, document_upload_form.php, urn_profile_form.php AND some php files academic_details.php, additional_details.php, urn_activity_history.php, urn_audit_history.php, urn_profile.php, urn_documents.php moved from staff/partner/student folder to urn_modules folder with updation AND urn_details_content.php updated in student folder AND urn_history_content.php updated in staff & partner folder
+
+12-11-2024
+
+new functios added in new_functions.php in common folder AND new new files added in staff/admin_modules folder AND many files updated in staff folder related to add_course, add_university, university_list, view_course, add_agent, add_sales_person, add_application_point
+
+13-11-2024
+
+new php file site_info_form added in staff/admin_modules folder AND new php file alertModal.php added in common folder AND new function showActionPerformAlert() added in new_functions.php in common folder AND alertModaL.php included in many files in staff & staff/admin_modules both folders AND common_include.php, add_staff, add_agent,add_sales_person, add_university & their respective content php files & create_agent, create_sales_person etc... updated in staff folder
+
+new subfolder menu_modules added in staff folder with new php files available_menus.php, menu_item_form.php, submenu_item_form.php, menu_form.php, menu_items_list.php, submenu_items_list.php AND submenu_items_content.php, menu_items_content.php, manage_submenu_item_content.php, manage_menu_item_content.php, manage_menu_content.php, menu_list_content.php updated in staff folder AND login.php updated in backend folder
+
+14-11-2024
+
+new folders for all menu items has created & thier respective php files moved from staff folder to thet 'menu item named' folder AND topbar/main.php & many files in urn_modules folder has updated
+
+topbar/main.php updated AND many files updated/added in urn_modules, urn_management, backend, mydashboard, myaccount folders
+
+02-01-2025
+
+submenu_items.php updated & new php file add_submenu_item.php in menu_management folder AND top10_uni.php, top10_uni_content.php, update_uni_ranking.php added in university_management folder AND top10_uni_list.php added in university_management/admin_modules folder AND new table countrywise_top10_university added in database AND m_popular_uni.php updated in MobileAPI folder
+
+03-01-2025
+
+m_course_finder.php updated & new php file m_apply.php added in MobileAPI folder
+
+04-01-2025
+
+new php files m_apply.php, m_apply_bystudent.php & m_getCourseDetails.php added in MobileAPI folder
+
+06-01-2025
+
+m_apply_bystudent.php updated in MobileAPI folder
+
+new php files m_addtowishlist.php, m_removefromwishlist.php added in MobileAPI folder
+
+common_include.php updated in backend_common_includes folder
+
+
+10-01-2025
+
+new php files view_subject.php, view_subject_content.php, import_subjects.php, delete_subject.php, import_subjects_content.php, import_subject_modal.php, add_subject.php, add_subject_content.php, edit_subject.php, edit_subject_contect.php, update_subject.php added in university_management folder AND subject_form.php added in university_management/admin_modules folder AND courses_sheet_format.xls added in sample_format folder AND new table subject_list added & new field/column subject_id added in course_list table in database AND view_course_content.php updated in university_management folder AND updated data & structure sql file added in SQL/10012025 folder
+
+14-01-2025
+
+new php files related to popular_searches added in site_management & site_management/admin_modules folders AND new table popular_search added into database AND new php file m_popular_searches.php added in MobileAPI folder
+
+new php file m_popular_uni.php added in MobileAPI AND view_course_content.php updated in university_management folder AND university_list.php updated in university_management/admin_modules folder AND new php files add_uni_logo.php,add_uni_logo_content added in university_management folder AND new field/column logo added in table university_list in database AND new folders uni_logos, keyword_images added uploads folder
+
+15-01-2025
+
+new php files popular_uni.php, popular_uni_content.php, update_popular_uni_list.php added in university_management folder AND popular_uni_list.php added in university_management/admin_modules folder
+
+17-01-2025
+
+new folder MobileAPIStaff added with many new php files named common_include.php, validateLogin.php, verifyToken.php, m_changePassword.php, m_temp_leads.php, m_updateProfile.php, m_urns.php
+
+
+18-01-2025
+
+m_temp_leads.php, m_urns.php updated in MobileAPIStaff folder
+
+21-01-2025
+
+urn_profile.php, urn_profile_form.php, urn_audit_history.php updated in urn_modules folder AND new php file m_createURN.php added & m_urns.php updated in MobileAPIStaff folder
+
+22-01-2025
+
+new php file m_updateTempLead.php added in MobileAPISatff folder
+
+24-01-2025
+
+new php file m_deleteTempLead.php added in MobileAPISatff folder
+
+25-01-2025
+
+add_staff.php, delete_staff.php updated in staff_management folder
+
+new folder MobileAPIAdmin created in project with some files
+
+27-01-2025
+
+new php files m_staffList.php, m_agentList.php added in MobileAPIAdmin folder
+
+28-01-2025
+
+new php files m_salespersonList.php added & m_agentList.php updated in MobileAPIAdmin folder
+
+29-01-2025
+
+m_urnProfile.php, m_urnHistory.php added in MobileAPI folder
+
+30-01-2025
+
+m_manageWishlist.php, m_apply_bystudent.php updated & m_studentWishlistCount.php, m_studentURNCount.php added in MobileAPI folder
+
+update_urn_profile.php upgraded in urn_management folder AND urn_profile_form.php minor update in urn_modules folder AND m_urnProfile.php updated in MobileAPI folder
+
+update_academic_details.php, update_additional_details.php upgraded in urn_management folder AND m_urnProfile.php updated in MobileAPI folder
+
+validateLogin.php updated in MobileAPI folder
+
+name_urn_status_bar.php, leads.php updated in urn_management folder
+
+31-01-2025
+
+m_callbackList.php, m_emailsHistory.php, m_updateURNProfile.php added in MobileAPIAdmin folder AND m_URNProfile.php updated in MobileAPI folder
+
+01-02-2025
+
+m_urnProfile.php updated in MobileAPI folder
+AND m_updateURNProfile.php updated & new file m_updateURNPassport.php added in MobileAPIAdmin folder
+
+m_urns.php upgraded in MobileAPIAdmin folder
+AND m_urns.php upgraded in MobileAPI folder
+AND leads.php upgraded & leads_content.php updated in urn_management folder
+
+06-02-2025
+
+new php files m_agentProfile.php, m_walletHistory.php added in MobileAPIAdmin folder
+
+07-02-2025
+
+new php files m_staffProfile.php, m_salespersonProfile.php added in MobileAPIAdmin folder
+AND m_staffList.php, m_agentList.php, m_salespersonList.php updated in MobileAPIAdmin
+
+08-02-2025
+
+new php file m_updateUserStatus.php added in MobileAPIAdmin folder
+
+11-02-2025
+
+new php file m_applicationpointList.php added in MobileAPIAdmin folder
+
+12-02-2025
+
+new php m_updateAPDetail.php, m_createAP.php added in MobileAPIAdmin folder
+
+new php files m_pwrList.php, m_agentReport.php, m_salespersonReport.php added in MobileAPIAdmin folder
+
+13-02-2025
+
+m_pwrList.php, m_agentProfile.php, m_salespersonProfile.php updated in MobileAPIAdmin folder
+
+m_top5sources.php, m_top5unis.php added in MobileAPIAdmin folder
+
+14-02-2025
+
+m_top5unis.php updated in MobileAPIAdmin folder
+
+15-02-2025
+
+m_urnHistory.php updated in MobileAPI
+
+//all above has commited
+

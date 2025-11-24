@@ -1,0 +1,54 @@
+[15-Jul-2024 10:16:43 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'CampusAbroadPortal.site_settings' doesn't exist in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:303
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(303): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/site_info.php(2): getRowsData()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/common_include.php(12): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/add_record.php(2): include_once('/home/d0q72qc8x...')
+#4 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 303
+[15-Jul-2024 10:19:09 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 10:19:09 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 10:19:09 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10
+[15-Jul-2024 10:23:55 Asia/Calcutta] PHP Warning:  include_once(/home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/set_con.php): Failed to open stream: No such file or directory in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/common_include.php on line 8
+[15-Jul-2024 10:23:55 Asia/Calcutta] PHP Warning:  include_once(): Failed opening '/home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/set_con.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/common_include.php on line 8
+[15-Jul-2024 10:23:55 Asia/Calcutta] PHP Warning:  Undefined variable $con in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/site_info.php on line 2
+[15-Jul-2024 10:23:55 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php:303
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php(303): mysqli_query()
+#1 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/site_info.php(2): getRowsData()
+#2 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/common_include.php(12): include_once('/home/d0q72qc8x...')
+#3 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/test_report.php(2): include_once('/home/d0q72qc8x...')
+#4 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 303
+[15-Jul-2024 10:24:18 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 10:24:18 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 10:24:18 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10
+[15-Jul-2024 10:25:01 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 10:25:01 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 10:25:01 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10
+[15-Jul-2024 11:13:46 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[15-Jul-2024 11:13:47 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 11:13:47 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 11:13:47 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10
+[15-Jul-2024 12:43:41 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/validate_session.php on line 3
+[15-Jul-2024 12:43:42 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 12:43:42 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 12:43:42 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10
+[15-Jul-2024 07:14:25 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting "]" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/create_record.php on line 10
+[15-Jul-2024 07:14:46 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting "]" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/create_record.php on line 10
+[15-Jul-2024 07:15:03 UTC] PHP Parse error:  syntax error, unexpected token "=>", expecting "]" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/create_record.php on line 10
+[15-Jul-2024 13:20:58 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 13:20:58 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 13:20:58 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10
+[15-Jul-2024 14:20:20 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 14:20:20 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 14:20:20 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10
+[15-Jul-2024 14:44:37 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 14:44:37 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 14:44:37 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10
+[15-Jul-2024 15:01:30 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 15:01:30 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 15:01:30 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10
+[15-Jul-2024 15:32:57 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 6
+[15-Jul-2024 15:32:57 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 8
+[15-Jul-2024 15:32:57 Asia/Calcutta] PHP Warning:  Undefined array key "username" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/testing/login.php on line 10

@@ -1,0 +1,16 @@
+<?php
+include_once("common_include.php");
+
+$jsonData = file_get_contents('php://input'); // Read raw POST data from the incoming request body
+
+$data = json_decode($jsonData, true); // Decode the JSON data into a PHP array
+
+$course_id = $data['course_id'];
+$student_id = $data['student_id'];
+
+$data_array = [
+					'course_id' => $data['course_id'],
+					'student_id' => $data['student_id']
+					];
+insertData('student_wishlist',$data_array,$con);
+?>

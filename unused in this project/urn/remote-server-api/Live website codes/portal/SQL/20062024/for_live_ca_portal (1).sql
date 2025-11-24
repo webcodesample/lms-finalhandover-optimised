@@ -1,0 +1,682 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1:3306
+-- Generation Time: Jun 20, 2024 at 11:54 AM
+-- Server version: 8.2.0
+-- PHP Version: 8.2.13
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `for_live_ca_portal`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `agent_list`
+--
+
+DROP TABLE IF EXISTS `agent_list`;
+CREATE TABLE IF NOT EXISTS `agent_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `type` int NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `mobile` bigint NOT NULL,
+  `whatsapp` bigint NOT NULL,
+  `company_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `company_address` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `company_website` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `comission` int NOT NULL,
+  `status` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `agent_list`
+--
+
+INSERT INTO `agent_list` (`id`, `type`, `name`, `email`, `mobile`, `whatsapp`, `company_name`, `company_address`, `company_website`, `comission`, `status`) VALUES
+(1, 1, 'Yogesh', 'yogesh@bafna.net', 9902012547, 9902012547, 'Moti Corporation', 'Hebbal, Bangalore', 'www.moticorporation.com', 20, 0),
+(2, 0, 'Gautam', 'gautam@bafna.net', 1234567890, 1234567890, '', '', '', 20, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `application_point_list`
+--
+
+DROP TABLE IF EXISTS `application_point_list`;
+CREATE TABLE IF NOT EXISTS `application_point_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `type` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `address` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `contact_person_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `mobile` bigint NOT NULL,
+  `comission_percentage` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `application_point_list`
+--
+
+INSERT INTO `application_point_list` (`id`, `name`, `type`, `address`, `contact_person_name`, `email`, `mobile`, `comission_percentage`) VALUES
+(1, 'crizac mgmt', 'i', 'usa', 'test', 'crizac@test', 123456, 30),
+(2, 'Bangalore University', 'u', 'Bangalore', 'IT HEAD', 'text@test', 123456, 30);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `callback_list`
+--
+
+DROP TABLE IF EXISTS `callback_list`;
+CREATE TABLE IF NOT EXISTS `callback_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `lead_id` int NOT NULL,
+  `callback_datentime` int NOT NULL,
+  `prev_remark` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `country_list`
+--
+
+DROP TABLE IF EXISTS `country_list`;
+CREATE TABLE IF NOT EXISTS `country_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `currency` varchar(150) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `country_list`
+--
+
+INSERT INTO `country_list` (`id`, `name`, `currency`) VALUES
+(1, 'usa', 'usd'),
+(2, 'uk', 'gbp'),
+(3, 'canada', 'cad'),
+(4, 'germany', 'pound');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `course_list`
+--
+
+DROP TABLE IF EXISTS `course_list`;
+CREATE TABLE IF NOT EXISTS `course_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `type` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `intake` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `duration` int NOT NULL,
+  `eligibility` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `university_id` int NOT NULL,
+  `fee` int NOT NULL,
+  `scholarship_available` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=104 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `course_list`
+--
+
+INSERT INTO `course_list` (`id`, `name`, `type`, `intake`, `duration`, `eligibility`, `university_id`, `fee`, `scholarship_available`) VALUES
+(1, 'Bsc (HONS) Accounting & Finance', 'Undergraduate', 'jan,sep', 36, '10th', 1, 15900, 1),
+(2, 'Bsc (HONS) Architecture', 'Undergraduate', 'jan', 35, '12th', 1, 16700, 0),
+(3, 'Bsc (HONS) Artificial Intelligence', 'Undergraduate', 'Sep', 36, '12th', 1, 16700, 0),
+(4, 'Bsc (HONS) Banking & Finance', 'Undergraduate', 'Sep', 36, '12th', 1, 15900, 0),
+(5, 'Bsc (HONS) Biomedical Science', 'Undergraduate', 'Sep', 36, '12th', 1, 16700, 0),
+(6, 'Bsc(HONS) Computer Games Technology', 'Undergraduate', 'Sep', 36, '12th', 1, 15900, 0),
+(7, 'Msc Mechanical Engineering', 'Postgraduate', 'Sep', 24, 'Bachelor', 1, 17700, 0),
+(8, 'MAarch Architecture', 'Postgraduate', 'Sep', 24, 'Bachelor', 1, 17700, 0),
+(9, 'MSC Automation & Robotics', 'Postgraduate', 'jan', 12, 'Bachelor', 1, 17700, 0),
+(10, 'MSC Applied Bioscience', 'Postgraduate', 'jan', 15, 'Bachelor', 1, 17700, 0),
+(11, 'MSC Artificial Intelligence', 'Postgraduate', 'Sep', 12, 'Bachelor', 1, 17700, 0),
+(12, 'MSC Computer Science', 'Postgraduate', 'jan', 20, 'Bachelor', 1, 17700, 0),
+(13, 'Bsc (HONS) Actuarial Science', 'Undergraduate', 'Sep', 36, '12th', 2, 24500, 0),
+(14, 'Bsc (HONS) Accounting & Finance', 'Undergraduate', 'Sep', 36, '12th', 2, 24500, 0),
+(15, 'MEng (HONS) Aeronautical Engineering', 'Undergraduate', 'Sep', 48, '12th', 2, 20760, 0),
+(16, 'Bsc (HONS) Banking & International Finance', 'Undergraduate', 'Sep', 36, '12th', 2, 24500, 0),
+(17, 'Bsc (HONS) Business Management', 'Undergraduate', 'Sep', 36, '12th', 2, 24500, 0),
+(18, 'Msc Robotics, AI & Autonomous systems', 'Postgraduate', 'Sep', 12, 'Bachelor', 2, 21800, 0),
+(19, 'Msc Business Economics/ International Business Economics', 'Postgraduate', 'Sep', 12, 'Bachelor', 2, 20910, 0),
+(20, 'MA Marketting Communications', 'Postgraduate', 'Sep', 12, 'Bachelor', 2, 21650, 0),
+(21, 'MA international Journalism', 'Postgraduate', 'Sep', 12, 'Bachelor', 2, 24400, 0),
+(22, 'Msc Psychology', 'Postgraduate', 'Sep', 12, 'Bachelor', 2, 18200, 0),
+(23, 'Animation BA (HONS)', 'Undergraduate', 'Sep', 36, '12th', 3, 16250, 0),
+(24, 'Architecture BA (HONS)', 'Undergraduate', 'Sep', 36, '12th', 3, 15750, 0),
+(25, 'Business Management BA (HONS)', 'Undergraduate', 'Sep', 36, '12th', 3, 15750, 0),
+(26, 'Accounting & Economics BA (HONS)', 'Undergraduate', 'Sep', 36, '12th', 3, 15250, 0),
+(27, 'Advertising and Marketing Communications BA (HONS)', 'Undergraduate', 'Sep', 36, '12th', 3, 15750, 0),
+(28, 'Finance & Banking Msc', 'Postgraduate', 'Sep', 12, 'Bachelor', 3, 17950, 0),
+(29, 'International Commercial Law & Practice LLM', 'Postgraduate', 'Sep', 12, 'Bachelor', 3, 17950, 0),
+(30, 'Advanced Biomedical Science MSc/PG Dip/PG Cert', 'Postgraduate', 'Sep', 12, 'Bachelor', 3, 16800, 0),
+(31, 'Architecture MArch', 'Postgraduate', 'Sep', 24, 'Bachelor', 3, 15750, 0),
+(32, 'Computing MSc/PG Dip/PG Cert', 'Postgraduate', 'jan', 18, 'Bachelor', 3, 17600, 0),
+(33, 'BA (Hons) Accounting', 'Undergraduate', 'Sep', 48, '12th', 4, 14170, 0),
+(34, 'BSc (Hons) Biomedical Science', 'Undergraduate', 'Sep', 48, '12th', 4, 16680, 0),
+(35, 'BSc/BSc (Hons) Architectural Technology', 'Undergraduate', 'Sep', 48, '12th', 4, 16680, 0),
+(36, 'BA/BA (Hons) Business Management', 'Undergraduate', 'Sep', 48, '12th', 4, 14170, 0),
+(37, 'Msc Accounting', 'Postgraduate', 'Sep', 12, 'Bachelor', 4, 18800, 0),
+(38, 'MSc International Marketing (Dual Degree)', 'Postgraduate', 'Sep', 12, 'Bachelor', 4, 18800, 0),
+(39, 'MSc Medical Biology', 'Postgraduate', 'Sep', 12, 'Bachelor', 4, 18800, 0),
+(40, 'MBA', 'Postgraduate', 'Sep', 12, 'Bachelor', 4, 18540, 0),
+(41, 'MSc Advanced Structural Engineering', 'Postgraduate', 'Sep', 12, 'Bachelor', 4, 18800, 0),
+(42, 'Business Management BSc', 'Undergraduate', 'Sep', 36, '12th', 5, 33450, 0),
+(43, 'Law LLB', 'Undergraduate', 'Sep', 36, '12th', 5, 29472, 0),
+(44, 'Physiotherapy BSc', 'Undergraduate', 'Sep', 36, '12th', 5, 33450, 0),
+(45, 'Global Health & Social Medicine BA', 'Undergraduate', 'Sep', 36, '12th', 5, 25284, 0),
+(46, 'Accounting & Finance BSc', 'Undergraduate', 'Sep', 36, '12th', 5, 33450, 0),
+(47, 'Advanced Software Engineering MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 5, 35244, 0),
+(48, 'Mental Health, Ethics and Law MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 5, 29472, 0),
+(49, 'Modern Literature & Culture MA', 'Postgraduate', 'Sep', 12, 'Bachelor', 5, 27996, 0),
+(50, 'Management & Technological Change MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 5, 33450, 0),
+(51, 'Digital Asset & Media Management MA', 'Postgraduate', 'Sep', 12, 'Bachelor', 5, 31368, 0),
+(52, 'Digital Business Management - BSc (Hons)', 'Undergraduate', 'Sep', 36, '12th', 6, 15576, 0),
+(53, 'Architecture (Top-up) - BA (Hons)', 'Undergraduate', 'Sep', 12, '12th', 6, 19250, 0),
+(54, 'Architecture - BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 6, 17110, 0),
+(55, 'Fashion Marketing and Journalism - BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 6, 17600, 0),
+(56, 'Business Management - BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 6, 17600, 0),
+(57, 'Artificial Intelligence - MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 6, 18150, 0),
+(58, 'Creative, Digital and Professional Writing - MA', 'Postgraduate', 'Sep', 12, 'Bachelor', 6, 18150, 0),
+(59, 'Criminology - MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 6, 18150, 0),
+(60, 'Architecture - MA', 'Postgraduate', 'Sep', 12, 'Bachelor', 6, 16330, 0),
+(61, 'Biomedical Science - MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 6, 18150, 0),
+(62, 'Graphic Design BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 7, 17900, 0),
+(63, 'Computer Science (Artificial Intelligence) BSc (Hons)', 'Undergraduate', 'Sep', 36, '12th', 7, 17150, 0),
+(64, 'Accounting and Finance BSc (Hons)', 'Undergraduate', 'Sep', 36, '12th', 7, 17150, 0),
+(65, 'Animation BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 7, 17150, 0),
+(66, 'Biological Sciences BSc (Hons)', 'Undergraduate', 'Sep', 36, '12th', 7, 17150, 0),
+(67, 'Biomedical Science MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 7, 19850, 0),
+(68, 'Biotechnology MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 7, 19850, 0),
+(69, 'Finance (2yr) MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 7, 22100, 0),
+(70, 'Management and International Business MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 7, 21000, 0),
+(71, 'Psychology MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 7, 17500, 0),
+(72, 'Business Management BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 8, 14000, 0),
+(73, 'Digital Marketing BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 8, 14000, 0),
+(74, 'Events Management BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 8, 13500, 0),
+(75, 'Finance and Accounting BSc (Hons)', 'Undergraduate', 'Sep', 48, '12th', 8, 14000, 0),
+(76, 'Health and Social Care BSc (Hons)', 'Undergraduate', 'Sep', 36, '12th', 8, 14000, 0),
+(77, 'Education and Learning MA', 'Postgraduate', 'Sep', 18, 'Bachelor', 8, 11000, 0),
+(78, 'Enterprise Management MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 8, 15000, 0),
+(79, 'Hospitality with Tourism Management MSc', 'Postgraduate', 'Sep', 24, 'Bachelor', 8, 15000, 0),
+(80, 'Aviation Management MSc', 'Postgraduate', 'Sep', 18, 'Bachelor', 8, 15000, 0),
+(81, 'Finance and Accounting MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 8, 15000, 0),
+(82, 'BSc (Hons) Construction Management', 'Undergraduate', 'Sep', 36, '12th', 9, 16000, 0),
+(83, 'BSc (Hons) Data Science and Artificial Intelligence', 'Undergraduate', 'Sep', 36, '12th', 9, 16000, 0),
+(84, 'BSc (Hons) Architectural Technology', 'Undergraduate', 'Sep', 36, '12th', 9, 16000, 0),
+(85, 'BSc (Hons) Audio Engineering', 'Undergraduate', 'Sep', 36, '12th', 9, 14000, 0),
+(86, 'BA (Hons) Business and Management', 'Undergraduate', 'Sep', 36, '12th', 9, 16000, 0),
+(87, 'MSc Construction Management', 'Postgraduate', 'Sep', 12, 'Bachelor', 9, 17500, 0),
+(88, 'MSc Civil Engineering', 'Postgraduate', 'Sep', 12, 'Bachelor', 9, 17500, 0),
+(89, 'MSc International Events Management', 'Postgraduate', 'Sep', 12, 'Bachelor', 9, 17500, 0),
+(90, 'MSc Information and Technology', 'Postgraduate', 'Sep', 12, 'Bachelor', 9, 17500, 0),
+(91, 'MSc Accounting and Finance', 'Postgraduate', 'Sep', 12, 'Bachelor', 9, 17500, 0),
+(92, 'Law with Criminology, LLB Hons', 'Undergraduate', 'Sep', 36, '12th', 10, 17000, 0),
+(93, 'Pharmaceutical Sciences, BSc (Hons)', 'Undergraduate', 'Sep', 36, '12th', 10, 17000, 0),
+(94, 'Mathematics and Computing, BSc (Hons)', 'Undergraduate', 'Sep', 36, '12th', 10, 15100, 0),
+(95, 'Animation, BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 10, 17000, 0),
+(96, 'Accounting and Finance, BA (Hons)', 'Undergraduate', 'Sep', 36, '12th', 10, 17000, 0),
+(97, 'Computer Science, MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 10, 18150, 0),
+(98, 'International Events Management, MA', 'Postgraduate', 'Sep', 12, 'Bachelor', 10, 18150, 0),
+(99, 'International Business, MBA', 'Postgraduate', 'Sep', 24, 'Bachelor', 10, 19975, 0),
+(100, 'Accounting and Finance, MSc', 'Postgraduate', 'Sep', 12, 'Bachelor', 10, 18150, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `document_list`
+--
+
+DROP TABLE IF EXISTS `document_list`;
+CREATE TABLE IF NOT EXISTS `document_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `uploaded_file_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `is_required` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `document_list`
+--
+
+INSERT INTO `document_list` (`id`, `name`, `uploaded_file_name`, `is_required`) VALUES
+(1, '10th Markssheet', '10th_makrkssheet', 0),
+(2, '10th Certificate', '10th_certificate', 0),
+(3, '10+2 Markssheet', '12th_markssheet', 0),
+(4, '10+2 Certificate', '12th_certificate', 0),
+(5, 'Graduation Markssheet', 'graduation_markssheet', 0),
+(6, 'Graduation Certificate', 'graduation_certificate', 0),
+(7, 'Passport', 'passport', 1),
+(8, 'IELTS Score Card', 'ielts_score_card', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `leads_activity_history`
+--
+
+DROP TABLE IF EXISTS `leads_activity_history`;
+CREATE TABLE IF NOT EXISTS `leads_activity_history` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `lead_id` int NOT NULL,
+  `status_id` int NOT NULL,
+  `comment` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `activity_by` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `datentime` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `leads_details`
+--
+
+DROP TABLE IF EXISTS `leads_details`;
+CREATE TABLE IF NOT EXISTS `leads_details` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `urn` int NOT NULL,
+  `status_id` int NOT NULL,
+  `status_batch_id` int NOT NULL,
+  `student_id` int NOT NULL,
+  `course_id` int NOT NULL,
+  `datentime` int NOT NULL,
+  `source` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `lead_staff_relation`
+--
+
+DROP TABLE IF EXISTS `lead_staff_relation`;
+CREATE TABLE IF NOT EXISTS `lead_staff_relation` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `lead_id` int NOT NULL,
+  `staff_id` int NOT NULL,
+  `datentime` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `lead_status_list`
+--
+
+DROP TABLE IF EXISTS `lead_status_list`;
+CREATE TABLE IF NOT EXISTS `lead_status_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `step_order` int NOT NULL,
+  `batch_id` int NOT NULL,
+  `datentime` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `lead_status_list`
+--
+
+INSERT INTO `lead_status_list` (`id`, `description`, `step_order`, `batch_id`, `datentime`) VALUES
+(1, 'New', 1, 1, 0),
+(2, 'Pre Application', 2, 1, 0),
+(3, 'Applied', 4, 1, 0),
+(4, 'Cas Issued', 5, 1, 0),
+(5, 'Visa Application', 6, 1, 0),
+(6, 'Visa Issued', 7, 1, 0),
+(7, 'Complete', 8, 1, 0),
+(8, 'Kill Lead', 999, 1, 0),
+(9, 'Rejected By University', 888, 1, 0),
+(10, 'Visa Rejected', 777, 1, 0),
+(11, 'Verification', 3, 1, 0),
+(12, 'New', 1, 2, 1718856824),
+(13, 'Verification', 2, 2, 1718856824),
+(14, 'Approved', 3, 2, 1718856824),
+(15, 'Kill Lead', 999, 2, 0),
+(16, 'Rejected By University', 888, 2, 0),
+(17, 'Visa Rejected', 777, 2, 0),
+(18, 'New', 1, 3, 1718863499),
+(19, 'Preapplication', 2, 3, 1718863499),
+(20, 'Verification', 3, 3, 1718863499),
+(21, 'URN Approved', 4, 3, 1718863499),
+(22, 'Visa Approved', 5, 3, 1718863499),
+(23, 'Complete', 6, 3, 1718863499),
+(24, 'Kill Lead', 999, 3, 1718863499),
+(25, 'URN Rejected', 888, 3, 1718863499),
+(26, 'Visa Rejected', 777, 3, 1718863499);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login_detail`
+--
+
+DROP TABLE IF EXISTS `login_detail`;
+CREATE TABLE IF NOT EXISTS `login_detail` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `ref_id` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `username` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `login_type` int NOT NULL,
+  `status` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=32 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `login_detail`
+--
+
+INSERT INTO `login_detail` (`id`, `ref_id`, `username`, `password`, `login_type`, `status`) VALUES
+(1, '4', 'admin', 'as1234', 111, 1),
+(31, 'SP1', 'yogesh@bafna.net', '123456', 6, 0),
+(29, 'SA1', 'yogesh@bafna.net', '123456', 4, 0),
+(30, 'SA2', 'gautam@bafna.net', '123456', 4, 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login_type_list`
+--
+
+DROP TABLE IF EXISTS `login_type_list`;
+CREATE TABLE IF NOT EXISTS `login_type_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `uses_rights` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `login_type_list`
+--
+
+INSERT INTO `login_type_list` (`id`, `description`, `uses_rights`) VALUES
+(1, 'admin', 11),
+(2, 'tech', 11),
+(3, 'subadmin', 11),
+(4, 'agent', 11),
+(5, 'student', 11),
+(6, 'sales person', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `min_education_list`
+--
+
+DROP TABLE IF EXISTS `min_education_list`;
+CREATE TABLE IF NOT EXISTS `min_education_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `description` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `min_education_list`
+--
+
+INSERT INTO `min_education_list` (`id`, `description`) VALUES
+(1, '10th'),
+(2, '10+2'),
+(3, 'diploma'),
+(4, 'pg diploma'),
+(5, 'graduate'),
+(6, 'master');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sales_person_list`
+--
+
+DROP TABLE IF EXISTS `sales_person_list`;
+CREATE TABLE IF NOT EXISTS `sales_person_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `mobile` bigint NOT NULL,
+  `whatsapp` bigint NOT NULL,
+  `salary` int NOT NULL,
+  `comission` int NOT NULL,
+  `status` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `sales_person_list`
+--
+
+INSERT INTO `sales_person_list` (`id`, `name`, `email`, `mobile`, `whatsapp`, `salary`, `comission`, `status`) VALUES
+(1, 'Yogesh', 'yogesh@bafna.net', 9902012547, 9902012547, 10000, 20, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `staff_list`
+--
+
+DROP TABLE IF EXISTS `staff_list`;
+CREATE TABLE IF NOT EXISTS `staff_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `mobile` bigint NOT NULL,
+  `designation` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `division` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `staff_list`
+--
+
+INSERT INTO `staff_list` (`id`, `name`, `email`, `mobile`, `designation`, `division`) VALUES
+(1, 'YogGautam', 'yogesh@bafna.net', 9920012456, 'sales executive', 'sales'),
+(2, 'Pradeep Ranka', 'pradeep@test.com', 2147483647, 'sales executive', 'sales'),
+(3, 'Jasintha', 'jasi@test.com', 2147483647, 'backend', 'sales'),
+(4, 'Yogesh Bafna', 'yogesh@bafna.net', 9902012548, 'Director', 'Management'),
+(5, 'Amit', 'amit@moticorporation', 7618844888, 'Software Developer', 'IT');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `students`
+--
+
+DROP TABLE IF EXISTS `students`;
+CREATE TABLE IF NOT EXISTS `students` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `mobile` bigint NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `dob` int NOT NULL,
+  `brief_note` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `userid` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `temp_leads`
+--
+
+DROP TABLE IF EXISTS `temp_leads`;
+CREATE TABLE IF NOT EXISTS `temp_leads` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `mobile` bigint NOT NULL,
+  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `datentime` int NOT NULL,
+  `creator_id` int NOT NULL,
+  `creator_type` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `university_list`
+--
+
+DROP TABLE IF EXISTS `university_list`;
+CREATE TABLE IF NOT EXISTS `university_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `region` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `country_id` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `university_list`
+--
+
+INSERT INTO `university_list` (`id`, `name`, `region`, `country_id`) VALUES
+(1, 'Anglia Ruskin University', 'London', 2),
+(2, 'City University of London', 'London', 2),
+(3, 'De Montfort University', 'London', 2),
+(4, 'Edinburgh Napier University', 'London', 2),
+(5, 'Kings College London', 'London', 2),
+(6, 'London Metropolitan University', 'London', 2),
+(7, 'Nottingham Trent University', 'London', 2),
+(8, 'University College Birmingham', 'London', 2),
+(9, 'Leeds Beckett University', 'London', 2),
+(10, 'University of Greenwich', 'London', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `urn_audit_history`
+--
+
+DROP TABLE IF EXISTS `urn_audit_history`;
+CREATE TABLE IF NOT EXISTS `urn_audit_history` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `lead_id` int NOT NULL,
+  `course_id` int NOT NULL,
+  `status_id` int NOT NULL,
+  `student_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `student_dob` int NOT NULL,
+  `student_mobile` bigint NOT NULL,
+  `student_email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `student_brief_note` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `updation_remark` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `datentime` int NOT NULL,
+  `updated_columns` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `urn_document_upload_history`
+--
+
+DROP TABLE IF EXISTS `urn_document_upload_history`;
+CREATE TABLE IF NOT EXISTS `urn_document_upload_history` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `lead_id` int NOT NULL,
+  `urn` int NOT NULL,
+  `file_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `datentime` int NOT NULL,
+  `upload_by` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `wallet_history`
+--
+
+DROP TABLE IF EXISTS `wallet_history`;
+CREATE TABLE IF NOT EXISTS `wallet_history` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `wallet_id` int NOT NULL,
+  `transaction_remark` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `transaction_amount` int NOT NULL,
+  `transaction_date` int NOT NULL,
+  `transaction_type` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `wallet_history`
+--
+
+INSERT INTO `wallet_history` (`id`, `wallet_id`, `transaction_remark`, `transaction_amount`, `transaction_date`, `transaction_type`) VALUES
+(1, 1, 'Wallet Created', 0, 1718621704, 111),
+(2, 2, 'Wallet Created', 0, 1718621717, 111),
+(3, 3, 'Wallet Created', 0, 1718622035, 111);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `wallet_list`
+--
+
+DROP TABLE IF EXISTS `wallet_list`;
+CREATE TABLE IF NOT EXISTS `wallet_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `holder_id` int NOT NULL,
+  `holder_type` int NOT NULL,
+  `balance` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `wallet_list`
+--
+
+INSERT INTO `wallet_list` (`id`, `holder_id`, `holder_type`, `balance`) VALUES
+(1, 1, 4, 0),
+(2, 2, 4, 0),
+(3, 1, 6, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `withdrawl_request_list`
+--
+
+DROP TABLE IF EXISTS `withdrawl_request_list`;
+CREATE TABLE IF NOT EXISTS `withdrawl_request_list` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `wallet_id` int NOT NULL,
+  `amount` int NOT NULL,
+  `status` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

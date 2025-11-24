@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator with Amortization</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .calculator {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="number"], select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #218838;
+            }
+
+        #results {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            display: none;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: right;
+        }
+
+        th {
+            background-color: #f8f9fa;
+        }
+
+        @media (max-width: 600px) {
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h2>EMI Calculator with Amortization</h2>
+        <form id="emiForm">
+            <div class="form-group">
+                <label for="loan_amount">Loan Amount (₹):</label>
+                <input type="number" id="loan_amount" name="loan_amount" min="1" required>
+            </div>
+            <div class="form-group">
+                <label for="interest_rate">Annual Interest Rate (%):</label>
+                <input type="number" id="interest_rate" name="interest_rate" step="0.01" min="0.01" required>
+            </div>
+            <div class="form-group">
+                <label for="loan_term">Loan Term (Duration):</label>
+                <input type="number" id="loan_term" name="loan_term" min="1" required>
+            </div>
+            <div class="form-group">
+                <label>Loan Term Type:</label>
+                <input type="radio" name="term_type" value="weekly" class="term-type"> Weekly<br>
+                <input type="radio" name="term_type" value="monthly" class="term-type" checked> Monthly<br>
+                <input type="radio" name="term_type" value="quarterly" class="term-type"> Quarterly<br>
+                <input type="radio" name="term_type" value="yearly" class="term-type"> Yearly
+            </div>
+            <button type="submit">Calculate EMI</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('#emiForm').on('submit', function(e) {
+                e.preventDefault();
+                let checkedCount = $('.term-type:checked').length;
+                if (checkedCount !== 1) {
+                    $('#results').html('<p class="error">Please select exactly one loan term type.</p>').show();
+                    return;
+                }
+
+                let formData = {
+                    loan_amount: parseFloat($('#loan_amount').val()),
+                    interest_rate: parseFloat($('#interest_rate').val()),
+                    loan_term: parseInt($('#loan_term').val()),
+                    term_type: $('.term-type:checked').val()
+                };
+
+                if (isNaN(formData.loan_amount) || isNaN(formData.interest_rate) || isNaN(formData.loan_term)) {
+                    $('#results').html('<p class="error">Please enter valid numbers for all fields.</p>').show();
+                    return;
+                }
+
+                $.ajax({
+                    url: 'calculate_emi.php',
+                    type: 'POST',
+                    data: formData,
+                    success: function(response) {
+                        $('#results').html(response).show();
+                    },
+                    error: function(xhr, status, error) {
+                        $('#results').html('<p class="error">Error calculating EMI: ' + error + '. Ensure the backend is hosted on a PHP server.</p>').show();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

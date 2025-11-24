@@ -1,0 +1,4 @@
+[06-Jul-2024 16:21:05 Asia/Calcutta] PHP Warning:  Undefined variable $wallet_balance_new in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/sa/mywallet_content.php on line 90
+[06-Jul-2024 17:07:05 Asia/Calcutta] PHP Warning:  Undefined variable $wallet_balance_new in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/sa/mywallet_content.php on line 90
+[06-Jul-2024 17:08:58 Asia/Calcutta] PHP Warning:  Undefined variable $wallet_balance_new in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/sa/mywallet_content.php on line 90
+[06-Jul-2024 17:43:41 Asia/Calcutta] PHP Warning:  Trying to access array offset on value of type null in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/portal/common/function.php on line 56

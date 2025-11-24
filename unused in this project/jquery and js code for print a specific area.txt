@@ -1,0 +1,28 @@
+<script type="text/JavaScript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.print/1.6.0/jQuery.print.js"></script>
+<script>
+function printTable3()
+{
+    alert("hi");
+    $("#myTable").print();
+}
+
+function printTable() {
+    $("center").addClass("border border-danger py-5 vh-100")
+    var divName = "myTable"; // Replace with your table's div ID
+    var printContents = $("#myTable").html();
+    var originalContents = $("body").html();
+    $("body").html(printContents);
+    window.print();
+    $("body").html(originalContents); // Restore the original content
+    $("center").removeClass("border border-danger py-5 vh-100")
+}
+
+function printTable2() {
+    var divName = "myTable"; // Replace with your table's div ID
+    var printContents = document.getElementById(divName).innerHTML;
+    var originalContents = document.body.innerHTML;
+    document.body.innerHTML = printContents;
+    window.print();
+    document.body.innerHTML = originalContents; // Restore the original content
+}
+</script>

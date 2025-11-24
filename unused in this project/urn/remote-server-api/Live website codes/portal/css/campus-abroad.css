@@ -1,0 +1,61 @@
+.baseFont{
+    font-size:12px;
+}
+
+.formInput{
+    width:200px;
+    height:10px;
+    font-size:10px;
+}
+.btn-red{
+    background-color:palevioletred;
+    border:1px;
+    border-radius:10px;
+    color:white;
+    font-weight:normal;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.btn-red:hover {
+    background-color: palevioletred;
+    border: 1px;
+    border-radius: 2px;
+    color: white;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-green {
+    background-color: darkgreen;
+    border: 1px;
+    border-radius: 10px;
+    color: white;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-green:hover {
+    background-color: darkgreen;
+    border: 1px;
+    border-radius: 2px;
+    color: white;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tbl-head{
+    background-color:palevioletred;
+    color:white;
+    font-weight:bold;
+}
+.content-mt{
+    margin-top:-24px;
+}

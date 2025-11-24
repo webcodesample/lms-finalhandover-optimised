@@ -1,0 +1,148 @@
+[05-Aug-2024 05:21:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:22:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:23:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:43:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:45:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:46:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:47:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:47:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:55:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:59:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 05:59:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 06:02:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 06:02:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 06:03:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[05-Aug-2024 06:03:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'university_id' in field list is ambiguous in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php:41
+Stack trace:
+#0 /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 41
+[13-Aug-2024 06:28:05 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[13-Aug-2024 06:28:23 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[14-Aug-2024 06:45:53 UTC] PHP Warning:  Undefined array key "ref_id" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/checkEmailUniqueness_ajax.php on line 6
+[16-Aug-2024 08:17:28 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[20-Aug-2024 05:58:27 UTC] PHP Warning:  Undefined array key "login_type" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 15
+[20-Aug-2024 05:58:27 UTC] PHP Warning:  Undefined array key "login_type" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 15
+[20-Aug-2024 06:58:25 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[21-Aug-2024 06:43:31 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[23-Aug-2024 08:17:01 UTC] PHP Warning:  Undefined array key "login_type" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 15
+[23-Aug-2024 08:17:01 UTC] PHP Warning:  Undefined array key "login_type" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/gettop5universities_ajax.php on line 15
+[28-Aug-2024 05:11:57 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:57 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:57 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:57 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:58 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:59 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:59 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:11:59 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:12:00 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:19:53 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 05:20:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 07:47:06 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 08:31:47 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 08:45:52 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 09:58:03 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 10:27:06 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 10:31:37 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 10:34:02 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 10:42:34 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 10:51:32 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 10:51:36 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 11:20:23 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[28-Aug-2024 12:02:16 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[12-Sep-2024 06:04:31 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:51 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:54 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:54 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[04-Oct-2024 04:15:55 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5
+[05-Oct-2024 05:52:26 UTC] PHP Warning:  Undefined array key "selectedYear" in /home/d0q72qc8x2kq/public_html/campus-abroad.co.in/v2/ajax_files/setMinToYear_ajax.php on line 5

@@ -1,0 +1,2 @@
+"new column batch_id, datentime added in lead_status_list AND status_batch_id in leads_details table in database
+

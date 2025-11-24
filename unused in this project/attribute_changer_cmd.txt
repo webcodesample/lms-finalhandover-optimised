@@ -1,0 +1,4 @@
+use these commands in powershell window to change file attributes like createdate, mdifieddate, accessdate
+$(Get-Item "dll.txt").creationtime = $(Get-Date "04/08/2024 09:45:45")
+$(Get-Item "dll.txt").lastwritetime = $(Get-Date "04/08/2024 09:45:45")
+$(Get-Item "dll.txt").lastaccesstime = $(Get-Date "04/08/2024 09:45:45")

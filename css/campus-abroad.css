@@ -1,0 +1,120 @@
+.baseFont{
+    font-size:12px;
+}
+
+.formInput{
+    width:200px;
+    height:10px;
+    font-size:10px;
+}
+.btn-red{
+    background-color:palevioletred;
+    border:1px;
+    border-radius:10px;
+    color:white;
+    font-weight:normal;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.btn-red:hover {
+    background-color: palevioletred;
+    border: 1px;
+    border-radius: 2px;
+    color: white;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-green {
+    background-color: darkgreen;
+    border: 1px;
+    border-radius: 10px;
+    color: white;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn-green:hover {
+    background-color: darkgreen;
+    border: 1px;
+    border-radius: 2px;
+    color: white;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tbl-head{
+    background-color:palevioletred;
+    color:white;
+    font-weight:bold;
+}
+.content-mt{
+    margin-top:-24px;
+}
+
+.bs-wizard-dot {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: #20a149;
+    top: 105px;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+    border-radius: 50%;
+}
+
+.bs-wizard-dot:after {
+    content: ' ';
+    width: 14px;
+    height: 14px;
+    background: #fbbd19;
+    border-radius: 50px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+@media print {
+    header {
+        position: fixed;
+        text-align: right;
+        top: 0;
+        left:0;
+        right:0;
+        height: 50px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+    }
+
+    @page {
+        border: 2px red solid;
+        margin-top: 100cm;
+        margin-bottom: 1cm;
+    }
+}
+
+.table-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.table-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}

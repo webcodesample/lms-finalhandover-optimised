@@ -1,0 +1,22 @@
+<?php
+include_once("common_include.php");
+
+$rowdata = [];
+
+if($_REQUEST['university'])
+{
+$query = "SELECT * FROM university_list WHERE name LIKE '%".$_REQUEST['university']."%' ORDER BY name ASC";
+$result = mysqli_query($con, $query);
+
+$i = 0;
+
+while($row = mysqli_fetch_assoc($result))
+{
+	$i++;
+	$row['rowindex'] = $i;
+	$rowdata[] = $row;
+}
+}
+
+echo json_encode($rowdata);
+?>

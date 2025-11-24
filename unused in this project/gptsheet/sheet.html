@@ -1,0 +1,106 @@
+from weasyprint import HTML
+from pathlib import Path
+
+# HTML content for the cheat sheet
+html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MySQL Function Cheat Sheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>MySQL Function Cheat Sheet</h1>
+
+    <h2>1. Numeric Functions</h2>
+    <table>
+        <tr><th>Function</th><th>Description</th><th>Example</th><th>Result</th></tr>
+        <tr><td>ABS(x)</td><td>Absolute value</td><td><code>SELECT ABS(-10);</code></td><td>10</td></tr>
+        <tr><td>CEIL(x)</td><td>Round up</td><td><code>SELECT CEIL(2.3);</code></td><td>3</td></tr>
+        <tr><td>FLOOR(x)</td><td>Round down</td><td><code>SELECT FLOOR(2.7);</code></td><td>2</td></tr>
+        <tr><td>ROUND(x, d)</td><td>Round to d decimals</td><td><code>SELECT ROUND(2.678, 2);</code></td><td>2.68</td></tr>
+        <tr><td>MOD(x, y)</td><td>Remainder</td><td><code>SELECT MOD(10, 3);</code></td><td>1</td></tr>
+        <tr><td>POWER(x, y)</td><td>Exponent</td><td><code>SELECT POWER(2, 3);</code></td><td>8</td></tr>
+        <tr><td>SQRT(x)</td><td>Square root</td><td><code>SELECT SQRT(25);</code></td><td>5</td></tr>
+    </table>
+
+    <h2>2. Date & Time Functions</h2>
+    <table>
+        <tr><th>Function</th><th>Description</th><th>Example</th><th>Result</th></tr>
+        <tr><td>NOW()</td><td>Current date/time</td><td><code>SELECT NOW();</code></td><td>2025-07-10 15:32:00</td></tr>
+        <tr><td>CURDATE()</td><td>Current date</td><td><code>SELECT CURDATE();</code></td><td>2025-07-10</td></tr>
+        <tr><td>DATEDIFF(d1, d2)</td><td>Days between</td><td><code>SELECT DATEDIFF('2025-07-10', '2025-07-01');</code></td><td>9</td></tr>
+    </table>
+
+    <h2>3. String Functions</h2>
+    <table>
+        <tr><th>Function</th><th>Description</th><th>Example</th><th>Result</th></tr>
+        <tr><td>CONCAT()</td><td>Join strings</td><td><code>SELECT CONCAT('My', 'SQL');</code></td><td>MySQL</td></tr>
+        <tr><td>LENGTH()</td><td>Byte length</td><td><code>SELECT LENGTH('MySQL');</code></td><td>5</td></tr>
+        <tr><td>REPLACE()</td><td>Replace substring</td><td><code>SELECT REPLACE('MySQL', 'SQL', 'Database');</code></td><td>MyDatabase</td></tr>
+    </table>
+
+    <h2>4. Control Flow Functions</h2>
+    <table>
+        <tr><th>Function</th><th>Description</th><th>Example</th><th>Result</th></tr>
+        <tr><td>IF()</td><td>If-Else</td><td><code>SELECT IF(10 > 5, 'Yes', 'No');</code></td><td>Yes</td></tr>
+        <tr><td>IFNULL()</td><td>If NULL, use default</td><td><code>SELECT IFNULL(NULL, 'Default');</code></td><td>Default</td></tr>
+    </table>
+
+    <h2>5. Aggregate Functions</h2>
+    <table>
+        <tr><th>Function</th><th>Description</th><th>Example</th><th>Result</th></tr>
+        <tr><td>COUNT(*)</td><td>Row count</td><td><code>SELECT COUNT(*) FROM employees;</code></td><td>100</td></tr>
+        <tr><td>SUM()</td><td>Sum of values</td><td><code>SELECT SUM(salary) FROM employees;</code></td><td>300000</td></tr>
+    </table>
+
+    <h2>6. Info Functions</h2>
+    <table>
+        <tr><th>Function</th><th>Description</th><th>Example</th><th>Result</th></tr>
+        <tr><td>VERSION()</td><td>MySQL version</td><td><code>SELECT VERSION();</code></td><td>8.0.36</td></tr>
+        <tr><td>DATABASE()</td><td>Current DB</td><td><code>SELECT DATABASE();</code></td><td>your_db_name</td></tr>
+    </table>
+</body>
+</html>
+"""
+
+# Output path
+output_path = "/mnt/data/mysql_function_cheat_sheet.pdf"
+
+# Generate the PDF
+HTML(string=html_content).write_pdf(output_path)
+
+output_path

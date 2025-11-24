@@ -1,0 +1,48 @@
+<div class="d-flex justify-content-between mb-3">
+<h5 class="mt-2">Campus Abroad Partner Universities</h5>
+<div>
+<a href="add_university.php" onClick="return makeConfirm('add new university')"><img src="../portal-icons/add.png" width="25px"></a>
+<button class="btn btn-sm btn-subtle-success m-1 p-1" data-bs-toggle="modal" data-bs-target="#importUniversity">Import</button>
+<a href="../sample_format/university_sheet_format.xlsx" class="btn btn-sm btn-subtle-warning m-1 p-1" onClick="return makeConfirm('download sample sheet')">Sample Sheet</a>
+</div>
+</div>
+<center>
+<table class="table table-sm table-bordered table-hover table-striped fs-9">
+
+<thead class="table-info text-center">
+<tr>
+<th>#</th>
+<th>Name</th>
+<th>Region</th>
+<th>Country</th>
+<th colspan="2" align="center">Action</th>
+</tr>
+</thead>
+
+<tbody>
+<?php
+$i = 0;
+while($university = mysqli_fetch_assoc($moduleData))
+{
+	$i++;
+	$delete_link = "";
+
+	if(getRowCount('university_id',$university['id'],'course_list',$con) == 0)
+	$delete_link .= "<a href='delete_university.php?id=".$university['id']."' onclick='return makeConfirm(&quot;delete ".$university['name']."&quot;)'><img src='../portal-icons/delete.png' height='20px'></a>";
+
+	echo "<tr>
+		<td class='ps-2'>".$i."</td>
+		<td><a href='university_courses.php?university_id=".$university['id']."' class='text-decoration-none'>".strtoupper($university['name'])."</a></td>
+		<td>".strtoupper($university['region'])."</td>
+		<td>".strtoupper(getFieldValue('name','id',$university['country_id'],'country_list',$con))."</td>
+		<td>
+		<a href='edit_university.php?id=".$university['id']."' onclick='return makeConfirm(&quot;edit ".$university['name']."&quot;)'><img src='../portal-icons/edit.png' height='20px'></a>
+		".$delete_link."
+		</td>
+		</tr>";
+}
+?>
+</tbody>
+</table>
+</center>
+<?php include_once("import_university_modal.php"); ?>

@@ -1,0 +1,195 @@
+01-08-2024
+
+function uploadAcademicDocuments($inputFile,$lead_id,$con) update in function.php in common folder AND new php files delete_urn_document.php added in staff folder AND new php file urn_document_deletion_modal.php added in model_boxes folder & include in urn_documents.php in staff folder AND new js function addDataToURNDocumentDeletionModal(ID) defined in campus-abroad.js in js folder & called on deleteion link for documents in urn_documents.php in staff folder AND new fields/columns is_deleted, deleted_by, deletion_datentime, deletion_remark in table urn_document_upload_history in database
+
+font size fs-9 applied in Have you taken any test? options in academic_details.php in staff folder AND js function printData(printPageTitle) updated with removal of border incampus-abroad.js in js folder AND additional_details.php & update_additional_details.php has upgraded completly in staff folder AND $urn_audit_history_array update with new field in update_academic_details.php & upload_documents.php in staff folder AND passport details display logic added in audit_history.php in staff folder AND new fields/columns passport_number,passport_place_of_issue,passport_issued_on,passport_valid_till,passport_holder_name,passport_holder_surname, immigration_applied, immigration_detail, past_visa_refusal_status, past_visa_refusal_detail, serious_medical_status, medical_condition_detail, criminal_offence_status, criminal_offence_detail added into table urn_audit_history in database AND js function printData(printPageTitle) updated in campus-abroad.js in js folder
+
+02-08-2024
+
+minor changes in additional_details.php in staff folder AND passport detail section & additional detail section added in print_urn_content.php in staff folder AND js function printData(printPageTitle) updated in campus-abroad.js in js folder AND @media print header & footer updated in campus-abroad.css in css folder
+
+new functions lockURNByMe($con), unlockURNByMe($con), getURNCurrentUser($con) added in function.php in common folder AND getURNCurrentUser($con) called in common_include.php in staff folder AND new variables $urn_visibility_mode & $urn_visibility_class declared on basis of $urn_using_by_me(declared in common_include.php in staff folder) in urn_history.php AND $urn_visibility_mode called in urn_history_content.php AND $urn_visibility_class called in urn_profile.php, urn_documents.php, additional_details.php, academic_details.php in staff folder AND $urn_latest_info declared & $urn_audit_history_array updated with new fields in update_urn_profile.php in staff folder AND duplicate 'updation_remark' => $_REQUEST['updation_remark'], deleted from $urn_audit_history_array in update_academic_details.php & update_additional_details.php in staff folder AND new table working_on_lead_list added in database
+
+$all_test_names definition/creation logic upgraded in print_urn_content.php in staff folder
+
+new php files university_performance_report.php, university_performance_report_content.php added in staff folder AND new field/column university_id added in table leads_details AND new updated local databse data & structure sql file added in SQL & SQL/02082024 folder
+
+03-08-2024
+
+new php files top5_university_section.php added in staff folder AND new new php ajax file gettop5universities_ajax.php added in ajax_files folder & called in new js function getTop5Universities() added in campus-abroad.js in js folder AND minor change in payment_history.php in staff folder AND new join query added for university_urn_count, revenue calculation, commission payment calculation & display logic upgraded in university_performance_report_content.php in staff folder AND university_id field/column removed from table leads_details from local database
+
+upgraded version of dashboard.php, dashboard_content.php copied from staff to partner folder AND minor changes in agent_report.php & sales_report.php in staff folder AND $where_con .= "AND lsl.description != 'Deleted'"; added in leads.php in staff folder AND $total_urn_count calculation logic updated in agent_report_content.php & sales_person_report_content.php AND top5_university_section.php updated in staff folder AND urn count & display logic upgraded on basis of $_SESSION['login_type'] for agent/sale person dashboard display in gettop5universities_ajax.php in ajax_files folder AND new php files university_performance_report.php, university_performance_report_content.php added in partner folder AND temp_leads.php, temp_leads_content.php upgraded in partner folder
+
+callback_list.php, callback_list_content.php,update_call_log.php has upgarded in partner folder AND new files update_callback_status.php, add_callback_holder.php added in partner folder
+
+$field_visibility called/included in urn_documents.php, academic_details.php, additional_details.php in staff folder AND new php files academic_details.php, additional_details.php, update_academic_details.php, update_additional_details.php, delete_urn_document.php added in partner folder AND urn_history.php, urn_history_content.php, common_include.php,update_urn_profile.php, print_urn_content.php, upload_urn_document.php upgraded in partner folder
+
+05-08-2024
+
+new js function makeConfirm(confirmationMsgSuffix) added in campus-abroad.js in js folder AND js function makeConfirm() called in agent_list.php, staff_list.php, sales_person_list.php,application_point_list.php,view_course_content.php, university_lit_content.php, predefined_documents_lst.php, urn_documents.php in staff folder
+
+student_list display query updated in chat_list.php in partner folder AND button vaule renamed to 'Add Sales Person' in add_sales_person_content.php in staff folder AND urn profile pic display logic added in name_urn_status_bar.php in staff folder
+
+new php ajax file chaeckMobileUniqueness.php in ajax_files folder AND called in new js function checkMobileUniqueness(inputFieldID, refID = '') added in campus-abroad.js in js folder AND js function checkMobileUniqueness() called in agent_profile.php, add_agent_content.php, add_staff_content.php, manage_staff_content.php, add_sales_person_content.php, sales_person_profile.php in staff folder AND js fucntion makeConform() called in edit link in staff_list_content.php in staff folder
+
+06-08-2024
+
+insert_urn_audit_history query & $urn_audit_history_array updated in update_status.php & update_status_advance.php in staff folder AND agent_withdrawl_request.php & sales_person_withdrawl_request.php has upgraded in staff folder
+
+new variable $comission_paid_to & $go_to_wallet_link declared & paid_to name display logic & go_to wallet link added in payment_history.php in staff folder AND sales_person_ledger.php has been fully upgraded in staff folder AND setGoBack Url logic upgarded in transaction_detail_content.php in staff folder AND agent/sales person id - name display logic on tab bar added in manage_agent_content.php & manage_sales_person_content.php in staff folder AND applied spelling rectified in additional_details.php in staff folder AND image edit link added on urn profile pic & status description in different color display logic added in leads_content.php in staff folder
+
+07-08-2024
+
+new js functions searchToggle(), setSearchFlag(inputFieldValue), validateSearchForm() added in campus-abroad.js in js folder & called in staff_list.php & temp_leads_content.php AND new hidden input search_flag (with initial value 0) added in search_form  in staff_list.php, temp_leads_content.php AND all,active,inactive tabs added in staff_list_content.php in staff folder AND new field/column status added staff_list table in database AND update staff status query added in manage_staff_status.php in staff folder AND search logic & many new variables added in staff_list.php in staff folder
+
+09-09-2024
+
+new js functions addEmailRecipient() & removeEmailRecipient() added in campus-abroad.js in js folder & called in add_email_alert_trigger_content.php & manage_email_alert_trigger_content.php in staff folder AND new php files add_email_alert_trigger.php, add_email_alert_trigger_content.php, create_email_alert.php, delete_email_alert_trigger.php, email_alert_settings.php, email_alert_settings_content.php, manage_email_alert_trigger.php, manage_email_alert_trigger_content.php, update_email_alert.php added in staff folder AND new table email_alerts_setup added in database
+
+10-08-2024
+
+new php files add_predefined_action.php, predefined_action_list.php added in staff folder AND new tab 'Predefined Actions List' & it's related logic added in portal_settings.php & portal_settings_content.php in staff folder AND new js functions selectAll(checkAll) & countCheckboxChecked() in campus-abroad.js in js folder & called these functions in manage_email_alert_trigger_content.php & create_email_alert_trigger_content.php in staff folder
+
+new functions displayActionPerformCheckboxes() & displayActionPerformCheckboxesSelected() added in function.php in common folder & called in add_email_alert_trigger_content.php & manage_email_alert_trigger_content.php respectivley AND new field/column on_actions added in table email_alerts_setup in database AND new table action_perform_list added in database AND new filed $on_actions added $email_alert_data in create_email_alert.php & update_email_alert.php in staff folder
+
+11-08-2024
+
+new php files email_history.php, email_history_content.php,urn_communication_history.php, urn_call_list.php, urn_callback_list.php, urn_emails.php added in staff folder AND new table email_history,call_history added in database AND new menu item Communication History added in main menu AND new tab for communication history & it's related logic added in urn_history_content.php, urn_history.php in staff folder
+
+new php files urn_call_history_modal.php added in modal_boxes/communication folder & included in urn_communication_history.php in staff folder AND new php file update_call_history.php in staff folder AND new field/column dataentry_datentime added in table call_history in database AND new column added in display of all calls list in urn_call_list.php
+
+12-08-2024
+
+function generateSidebarMenu($con) updated in function.php in common folder AND 'Add Call History' btn display logic updated in urn_communication_history.php in staff folder AND call_history insertData logic added in update_callback_status.php in staff folder
+
+add country section & logic added in country_list.php in staff folder AND new php file add_country.php,manage_country.php, manage_country_content.php, update_country.php, delete_lead_source.php, update_lead_source.php added in staff folder AND $activty_info_array update in update_urn_course_selection.php in staff folder AND edit/delete lead source logic added in lead_source_list.php in staff folder AND round() function called on calculation of percentage in sales_person_report_content.php, agent_report_content.php, lead_source_report_content.php in staff folder AND function generateSidebarMenu($con) updated in function.php in common folder
+
+new php files university_courses.php, university_courses_content.php added in staff folder AND variable $delete_link & it's value updation logic added in university_list_content.php in staff folder
+
+13-08-2024
+
+new js function setMinToYear(fromYearVal) added in academicDetails.js in js folder & called this new js function in academic_details.php in staff folder AND new php ajax file setMinToYear_ajax.php added in ajax_files folder & included/called this php ajax file in newly defined js function setMinToYear(fromYearVal) in academicDetails.js in js folder
+
+new function createEmailHistory() added in function.php in staff folder AND called createEmailHistory() function & createEmailHistory logic added in update_urn_profile.php, update_urn_course_selection.php, update_academic_details.php, update_additional_details.php, upload_documents.php, update_status.php, update_status_advance.php in staff folder
+
+new function setadditionalRecipients($action,$con) added in function.php in common folder AND called setadditionalRecipients() in update_urn_profile.php, update_urn_course_selection.php, update_academic_details.php, update_additional_details.php, upload_documents.php, update_status.php, update_status_advance.php in staff folder
+
+$finalise_status_array updated in urn_history.php in staff folder
+
+display logic of status update dialog has updated in manage_lead_content.php in staff folder
+
+$type,$content,$subject definition/declaration logic updated in update_status.php & update_status_advance.php in staff folder
+
+function setadditionalRecipients($action,$con) updated with new conditional rowcount for $action value in function.php in common folder AND new function signupEmailHistory($signupType,$signupEmail,$signupName,$con) added in function.php in common folder AND called function signupEmailHistory() in create_agent.php, create_sales_person.php, add_staff.php in staff folder AND new function urnupdationEmailHistory($updation_type,$lead_id,$lead_student_email,$con) added in function.php in common folder AND called function urnupdationEmailHistory() in update_urn_profile.php, upload_documents.php, update_additional_details.php, update_academic_details.php, update_urn_course_selection.php in staff folder AND new urnstatusEmailHistory($next_status_description,$lead_id,$lead_student_email,$con) added in function.php in common folder AND called urnstatusEmailHistory() in update_status.php, update_status_advance.php in staff folder
+
+14-08-2024
+
+new variable $company_section_input declared in manage_agent.php & called in agent_profile.php in staff folder
+
+php function urnupdationEmailHistory() called in update_call_log.php, allocate_lead.php,update_callback_status.php in staff folder AND two new functions withdrawalEmailHistory() & getWalletHolderEmail() added in function.php in common folder AND withdrawalEmailHistory() called in approve_withdrawl_request.php in staff folder & in request_withdrawal.php in partner folder
+
+getWalletHolderEmail() updated in function.php in common folder
+
+new php function sendMail($recipients,$subject,$content) added & called in functions urnstatusEmailHistory(), urnupdationEmailHistory(), withdrawalEmailHistory(), signupEmailHistory in function.php in common folder AND header redirect conditional logic upgraded on basis of agent_id/sales_person_id in approve_withdrawl_request.php in staff folder AND withdrawl spelling rectified to withdrawal in manage_agent_content.php, manage_sales_person_content.php, agent_withdrawl_request.php, sales_person_withdrawl_request.php in staff folder &  my_wallet_content.php in partner folder
+
+new variable $delete_link declared & it's display logic updated in email_alerts_settings_content.php in staff folder
+
+16-08-2024
+
+new variable $allocated_where_con declared & used in function generateLeadManagementMenuItems($con) in function.php in common folder
+
+21-08-2024
+
+new js function freezWithdrawal() added in campus-abroad.js in js folder AND called js function freezWithdrawal() on submit button click in withdrawal_request_modal.php in partner folder AND id request_withdrawal_btn added to request withdrawal btn in mywallet_content.php in partner folder
+
+22-08-2024
+
+application_point_list, agent_list & sales_person_list table has updated with column commission/commission_percentage with datatype decimal(10,2) in database AND new variables $total_staff, $total_staff_inactive, $total_staff_active & their related sql query added in staff_list.php in staff folder AND these variables called in staff_list_content.php in staff folder AND local databse data & structure SQL file added in SQL & SQL/22082024 folder
+
+new variable $query_part_common declared in staff_list.php in staff folder AND inactive spelling rectified in staff_list_content.php in staff folder
+
+commission spelling rectified in all php files in staff folder in this current commit
+
+new function showAuthorizedSubMenuOptions($menu_item_id,$authorized_submenu_options_array,$con) added in function.php in common folder & called in function showAuthorizedMenuOptions($con,$staff_id) & showAuthorizationOption($con) in function.php in common folder AND new js function setSubmenuItems(menuItemID) & setMenuItem(menuItemID) created & new variable $authorised_submenu_options declared in manage_staff.php in staff folder AND new field/column authorised_submenu_options in table staff_list in database
+
+23-08-2024
+
+new js functions setSubmenuItems(menuItemID, checkStatus) & setMenuItem(menuItemID, checkStatus) added in campus-abroad.js in js folder AND php functions showAuthorizedSubMenuOptions(), showAuthorizedMenuOptions(), showAuthorizationOption(), generateSubmenu() has updated with new variable $authorized_submenu_options & $authorized_submenu_options_array in function.php in common folder
+
+function showAuthorizedSubMenuOptions() updated in function.php in common folder AND new variable $authorised_submenu_options added in add_staff.php AND datatype changed to decimal(10,2) of commission/commission_amount in commission_paid_history & income_history table in databse
+
+function generateSubmenu() updated in function.php in common folder
+
+functuin showAuthorizedMenuOptions() updated in function.php in common folder
+
+function showAuthorizedMenuOptions(), generateSubmenu() & showAuthorizationOption() updated in function.php in common folder
+
+detail submission msg added in apply_step2.php in pub folder
+
+detail submission msg & skip msg update in apply_step2.php in pub folder
+
+function showAuthorizedMenuOptions() & showAuthorizationOption() upgraded with <div class='card'> in function.php in common folder
+
+function showAuthorizedSubMenuOptions() updated in function.php in common folder
+
+function showAuthorizedMenuOptions() & showAuthorizationOption() updated in function.php in common folder
+
+head.php in common folder AND head_crm.php in staff & partner folder has updated
+
+28-08-2024
+
+called js function makeConfirm() onClick of dial link in temp_leads.php in staff folder AND js function toggleAllSections() updated in auditHistory.js in js folder AND called function urnupdationEmailHistory() updated in update_academic_details.php, update_additional_details.php, update_urn_course_selection.php in staff folder AND function urnupdationEmailHistory() called in update_urn_course_selection.php, update_academic_details.php, update_additional_details.php, update_urn_profile.php in partner folder AND urn_profile.php, urn_documents.php updated in partner folder
+
+function urnstatusEmailHistory() has updated in function.php in common folder AND new variable $next_status_description declared & function urnstatusEmailHistory() called in approved_lead_deletion.php, request_lead_deletion.php in staff folder
+
+urn_details.php, update_urn_profile.php, update_urn_course_selection.php, audit_history.php, urn_profile.php, dashboard.php, dashboard_content.php updated in student folder AND new php files academic_details.php, additional_details.php added & called in urn_details.php in student folder
+
+11-09-2024
+
+'Than Yesterday' replaced with 'Since Yesterday' in today_calls_section.php in staff folder AND new_urn_count_section.php, top5_sourc.php, top5_university_section.php updated in staff folder AND search filter logic added on application point basis in income_history.php in staff folder AND setGoBack() function upgraded in fucntion.php in common folder AND new php file application_point-ajax.php added in livesearch folder AND livesearch.js updated in js folder
+
+livesearch.js updated in js folder AND new php files agent-ajax.php, sales_person-ajax.php added in livesearch folder AND payment_history.php updated in staff folder
+
+university_performance_report_content.php has upgraded for date filter search logic in staff folder
+
+university_performance_report.php, university_performance_report_content.php has upgraded for date filter search logic in staff folder
+
+new input filed & display column 'is_required' added in predefined_documents_list.php in staff folder AND add_predefined_document.php, update_predefined_document.php updated in staff folder
+
+new functions checkDocumentUploadCount(), checkMandatoryDocumentsUploadStatus() added in function.php in common folder AND function checkDocumentUploadCount() called in urn_documents.php in staff folder
+
+12-09-2024
+
+new variable $mandatory_documents_upload_status declared in name_urn_status_bar.php in staff folder AND update_status_modal.php updated with new display logic of 'Update Status' btn in staff folder AND function checkMandatoryDocumentsUploadStatus() updated in function.php in common folder AND function createChatRecord() updated with file_size_limit upto 200KB in auto_refresh_chat_list.php in common folder AND agent_performance.php & sales_person_performance.php fully upgraded in staff folder
+
+13-09-2024
+
+new table logged_user_list added in databse AND login.php updated in backend folder AND logout.php updated in staff, partner folder AND new function checkUserOnlineStatus() added in function.php in common folder AND called function checkUserOnlineStatus() in chat_history_content.php in staff & partner folder AND local database dat & structure SQL file added to SQL & SQL/13092024 folder
+
+04-10-2024
+
+new php files update_agent_bank.php, agent_bank_detail.php added in staff folder AND manage_agent.php, manage_agent_content.php, add_agent_content.php, create_agent.php has upgraded with new input fields/tab logic in staff folder AND new table column/fields related to bank detail added in table agent_list in database
+
+new php files update_sales_person_bank.php, sales_person_bank_detail.php added in staff folder AND manage_sales_person.php, manage_sales_person_content.php, add_sales_person_content.php, create_sales_person.php has upgraded with new input fields/tab logic in staff folder AND new table column/fields related to bank detail added in table sales_person_list in database
+
+new php file mybank.php, update_mybank.php added in partner folder AND myaccount.php, myaccount_content.php & myprofile.php updated in partner folder
+
+new variable $all_leads_for_current_user declared in function generateLeadManagementMenuItems($con) in function.php in common folder
+
+05-10-2024
+
+agent_ledger.php, sales_person_performance.php, urn_documents.php updated in staff folder AND urn_documents.php updated in partner folder
+
+name_urn_status_bar.php updated in partner folder AND new_urn_count_section.php updated in staff folder AND new php files leads_current_week.php, leads_current_week_content.php added in staff folder
+
+new php files leads_current_week.php, leads_current_week_content.php added in partner folder AND leads_current_week_content.php updated in staff folder
+
+leads_current_week_content.php updated in partner folder
+
+leads_current_week_content.php, leads_content.php updated in partner & staff both folder
+
+04-11-2024
+
+new php files validate_license.php, invalid_license.php added in common folder AND invalid_access.php in root folder AND 'validate_license.php' included in set_con.php in common folder
+
+//all above commited
