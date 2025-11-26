@@ -2,7 +2,7 @@
 include_once("common_include.php");
 
 $data_array = [
-				'password' => $_REQUEST['new_password'],
+				'password' => password_hash($_REQUEST['new_password'],PASSWORD_DEFAULT),
 			];
 
 $where_con_array = [
