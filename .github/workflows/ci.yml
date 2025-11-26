@@ -1,0 +1,47 @@
+# Name shown in GitHub Actions UI
+name: PHP CI Pipeline
+
+# When to run the workflow
+# Here: on every push to any branch
+on: 
+  push:                       # trigger when code is pushed
+    # optional: restrict to branches
+    # branches: [ main, develop ] 
+
+# A workflow may define one or more jobs.
+jobs:
+  # job id (internal name)
+  build-test:
+    # runner type: GitHub-hosted runner (Ubuntu)
+    runs-on: ubuntu-latest
+
+    # steps run sequentially in this job
+    steps:
+      # 1) Checkout repository to the runner
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        # actions/checkout clones your repo so subsequent steps can read files.
+
+      # 2) Setup PHP on the runner
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'       # PHP version to install
+          # you can add extensions, ini-values, coverage driver, etc.
+
+      # 3) Cache composer files (optional, speeds up repeated runs)
+      - name: Cache Composer dependencies
+        uses: actions/cache@v3
+        with:
+          path: vendor             # directory to cache
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
+
+      # 4) Install composer dependencies
+      - name: Install Dependencies
+        run: composer install --no-interaction --prefer-dist --no-progress
+
+      # 5) Run unit tests (PHPUnit)
+      - name: Run PHPUnit Tests
+        run: vendor/bin/phpunit --configuration phpunit.xml
